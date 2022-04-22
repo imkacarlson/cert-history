@@ -1,4 +1,4 @@
-Retrieved on 4/22/2022 from https://www.govinfo.gov/content/pkg/CFR-2011-title45-vol1/html/CFR-2011-title45-vol1.htm
+Retrieved on 4/22/2022 from https://www.govinfo.gov/content/pkg/CFR-2013-title45-vol1/html/CFR-2013-title45-vol1.htm
 
 SUBCHAPTER D_HEALTH INFORMATION TECHNOLOGY
 
@@ -21,7 +21,8 @@ Sec.
                          Information Technology
 
 170.200 Applicability.
-170.202 [Reserved]
+170.202 Transport standards.
+170.204 Functional standards.
 170.205 Content exchange standards and implementation specifications for 
           exchanging electronic health information.
 170.207 Vocabulary standards for representing electronic health 
@@ -39,6 +40,7 @@ Sec.
           designed for an ambulatory setting.
 170.306 Specific certification criteria for Complete EHRs or EHR Modules 
           designed for an inpatient setting.
+170.314 2014 Edition electronic health record certification criteria.
 
             Subpart D_Temporary Certification Program for HIT
 
@@ -66,7 +68,7 @@ Sec.
 170.490 Sunset of the temporary certification program.
 170.499 Incorporation by reference.
 
-            Subpart E_Permanent Certification Program for HIT
+                 Subpart E_ONC HIT Certification Program
 
 170.500 Basis and scope.
 170.501 Applicability.
@@ -91,6 +93,7 @@ Sec.
 170.565 Revocation of ONC-ACB status.
 170.570 Effect of revocation on the certifications issued to Complete 
           EHRs and EHR Modules.
+170.575 Removal of the ONC-AA.
 170.599 Incorporation by reference.
 
     Authority: 42 U.S.C. 300jj-11; 42 U.S.C 300jj-14; 5 U.S.C. 552.
@@ -125,26 +128,106 @@ the testing and certification of such Complete EHRs and EHR Modules.
 Sec. 170.102  Definitions.
 
     For the purposes of this part:
+    2011 Edition EHR certification criteria means the certification 
+criteria at Sec. Sec. 170.302, 170.304, and 170.306.
+    2014 Edition EHR certification criteria means the certification 
+criteria at Sec. 170.314.
+    Base EHR means an electronic record of health-related information on 
+an individual that:
+    (1) Includes patient demographic and clinical health information, 
+such as medical history and problem lists;
+    (2) Has the capacity:
+    (i) To provide clinical decision support;
+    (ii) To support physician order entry;
+    (iii) To capture and query information relevant to health care 
+quality;
+    (iv) To exchange electronic health information with, and integrate 
+such information from other sources;
+    (v) To protect the confidentiality, integrity, and availability of 
+health information stored and exchanged; and
+    (3) Has been certified to the certification criteria adopted by the 
+Secretary at: Sec. 170.314(a)(1), (3), and (5) through (8); (b)(1), 
+(2), and (7); (c)(1) through (3); (d)(1) through (8).
+    (4) Has been certified to the certification criteria at Sec. 
+170.314(c)(1) and (2):
+    (i) For no fewer than 9 clinical quality measures covering at least 
+3 domains from the set selected by CMS for eligible professionals, 
+including at least 6 clinical quality measures from the recommended core 
+set identified by CMS; or
+    (ii) For no fewer than 16 clinical quality measures covering at 
+least 3 domains from the set selected by CMS for eligible hospitals and 
+critical access hospitals.
     Certification criteria means criteria:
     (1) To establish that health information technology meets applicable 
 standards and implementation specifications adopted by the Secretary; or
     (2) That are used to test and certify that health information 
 technology includes required capabilities.
     Certified EHR Technology means:
-    (1) A Complete EHR that meets the requirements included in the 
+    (1) For any Federal fiscal year (FY) or calendar year (CY) up to and 
+including 2013:
+    (i) A Complete EHR that meets the requirements included in the 
 definition of a Qualified EHR and has been tested and certified in 
 accordance with the certification program established by the National 
 Coordinator as having met all applicable certification criteria adopted 
-by the Secretary; or
-    (2) A combination of EHR Modules in which each constituent EHR 
+by the Secretary for the 2011 Edition EHR certification criteria or the 
+equivalent 2014 Edition EHR certification criteria; or
+    (ii) A combination of EHR Modules in which each constituent EHR 
 Module of the combination has been tested and certified in accordance 
 with the certification program established by the National Coordinator 
 as having met all applicable certification criteria adopted by the 
-Secretary, and the resultant combination also meets the requirements 
-included in the definition of a Qualified EHR.
-    Complete EHR means EHR technology that has been developed to meet, 
-at a minimum, all applicable certification criteria adopted by the 
-Secretary.
+Secretary for the 2011 Edition EHR certification criteria or the 
+equivalent 2014 Edition EHR certification criteria, and the resultant 
+combination also meets the requirements included in the definition of a 
+Qualified EHR; or
+    (iii) EHR technology that satisfies the definition for FY and CY 
+2014 and subsequent years specified in paragraph (2);
+    (2) For FY and CY 2014 and subsequent years, the following: EHR 
+technology certified under the ONC HIT Certification Program to the 2014 
+Edition EHR certification criteria that has:
+    (i) The capabilities required to meet the Base EHR definition; and
+    (ii) All other capabilities that are necessary to meet the 
+objectives and associated measures under 42 CFR 495.6 and successfully 
+report the clinical quality measures selected by CMS in the form and 
+manner specified by CMS (or the States, as applicable) for the
+
+
+
+stage of meaningful use that an eligible professional, eligible 
+hospital, or critical access hospital seeks to achieve.
+    Common MU Data Set means the following data expressed, where 
+indicated, according to the specified standard(s):
+    (1) Patient name.
+    (2) Sex.
+    (3) Date of birth.
+    (4) Race--the standard specified in Sec. 170.207(f).
+    (5) Ethnicity--the standard specified in Sec. 170.207(f).
+    (6) Preferred language--the standard specified in Sec. 170.207(g).
+    (7) Smoking status--the standard specified in Sec. 170.207(h).
+    (8) Problems--at a minimum, the version of the standard specified in 
+Sec. 170.207(a)(3).
+    (9) Medications--at a minimum, the version of the standard specified 
+in Sec. 170.207(d)(2).
+    (10) Medication allergies--at a minimum, the version of the standard 
+specified in Sec. 170.207(d)(2).
+    (11) Laboratory test(s)--at a minimum, the version of the standard 
+specified in Sec. 170.207(c)(2).
+    (12) Laboratory value(s)/result(s).
+    (13) Vital signs--height, weight, blood pressure, BMI.
+    (14) Care plan field(s), including goals and instructions.
+    (15) Procedures--
+    (i) At a minimum, the version of the standard specified in Sec. 
+170.207(a)(3) or Sec. 170.207(b)(2).
+    (ii) Optional. The standard specified at Sec. 170.207(b)(3).
+    (iii) Optional. The standard specified at Sec. 170.207(b)(4).
+    (16) Care team member(s).
+    Complete EHR, 2011 Edition means EHR technology that has been 
+developed to meet, at a minimum, all mandatory 2011 Edition EHR 
+certification criteria for either an ambulatory setting or inpatient 
+setting.
+    Complete EHR, 2014 Edition means EHR technology that meets the Base 
+EHR definition and has been developed to meet, at a minimum, all 
+mandatory 2014 Edition EHR certification criteria for either an 
+ambulatory setting or inpatient setting.
     Disclosure is defined as it is in 45 CFR 160.103.
     EHR Module means any service, component, or combination thereof that 
 can meet the requirements of at least one certification criterion 
@@ -170,7 +253,7 @@ condition, requirement, or specification that stipulates instructions,
 fields, codes, data, materials, characteristics, or actions.
 
 [75 FR 2042, Jan. 13, 2010, as amended at 75 FR 36203, June 24, 2010; 75 
-FR 44649, July 28, 2010]
+FR 44649, July 28, 2010; 77 FR 54283, Sept. 4, 2012]
 
 
 
@@ -189,7 +272,43 @@ apply with respect to Complete EHRs and EHR Modules.
 
 
 
-Sec. 170.202  [Reserved]
+Sec. 170.202  Transport standards.
+
+    The Secretary adopts the following transport standards:
+
+
+
+    (a) Standard. ONC Applicability Statement for Secure Health 
+Transport (incorporated by reference in Sec. 170.299).
+    (b) Standard. ONC XDR and XDM for Direct Messaging Specification 
+(incorporated by reference in Sec. 170.299).
+    (c) Standard. ONC Transport and Security Specification (incorporated 
+by reference in Sec. 170.299).
+
+[77 FR 54284, Sept. 4, 2012]
+
+
+
+Sec. 170.204  Functional standards.
+
+    The Secretary adopts the following functional standards:
+    (a) Accessibility. Standard. Web Content Accessibility Guidelines 
+(WCAG) 2.0, Level A Conformance (incorporated by reference in Sec. 
+170.299).
+    (b) Reference source. Standard. HL7 Version 3 Standard: Context-
+Aware Retrieval Application (Infobutton) (incorporated by reference in 
+Sec. 170.299). (1) Implementation specifications. HL7 Version 3 
+Implementation Guide: URL-Based Implementations of the Context-Aware 
+Information Retrieval (Infobutton) Domain, (incorporated by reference in 
+Sec. 170.299).
+    (2) Implementation specifications. HL7 Version 3 Implementation 
+Guide: Context-Aware Knowledge Retrieval (Infobutton) Service-Oriented 
+Architecture Implementation Guide, (incorporated by reference in Sec. 
+170.299).
+    (c) Clinical quality measure-by-measure data. Data Element Catalog, 
+(incorporated by reference in Sec. 170.299).
+
+[77 FR 54284, Sept. 4, 2012]
 
 
 
@@ -199,9 +318,6 @@ exchanging electronic health information.
 
     The Secretary adopts the following content exchange standards and 
 associated implementation specifications:
-
-
-
     (a) Patient summary record--(1) Standard. Health Level Seven 
 Clinical Document Architecture (CDA) Release 2, Continuity of Care 
 Document (CCD) (incorporated by reference in Sec. 170.299). 
@@ -211,7 +327,11 @@ C32 (incorporated by reference in Sec. 170.299).
     (2) Standard. ASTM E2369 Standard Specification for Continuity of 
 Care Record and Adjunct to ASTM E2369 (incorporated by reference in 
 Sec. 170.299).
-    (b) Electronic prescribing. (1) Standard. The National Council for 
+    (3) Standard. HL7 Implementation Guide for CDA[supreg] Release 2: 
+IHE Health Story Consolidation, (incorporated by reference in Sec. 
+170.299). The use of the ``unstructured document'' document-level 
+template is prohibited.
+    (b) Electronic prescribing--(1) Standard. The National Council for 
 the Prescription Drug Programs (NCPDP) Prescriber/Pharmacist Interface 
 SCRIPT standard, Implementation Guide, Version 8, Release 1 (Version 
 8.1) October 2005 (incorporated by reference in Sec. 170.299)
@@ -227,23 +347,62 @@ or reporting. (1) Standard. HL7 2.3.1 (incorporated by reference in
 Sec. 170.299).
     (2) Standard. HL7 2.5.1 (incorporated by reference in Sec. 
 170.299).
-    (e) Electronic submission to immunization registries. (1) Standard. 
+    (3) Standard. HL7 2.5.1 (incorporated by reference in Sec. 
+170.299). Implementation specifications. PHIN Messaging Guide for 
+Syndromic Surveillance (incorporated by reference in Sec. 170.299) and 
+Conformance Clarification for EHR Certification of Electronic Syndromic 
+Surveillance, Addendum to PHIN Messaging Guide for Syndromic 
+Surveillance (incorporated by reference in Sec. 170.299).
+    (e) Electronic submission to immunization registries--(1) Standard. 
 HL7 2.3.1 (incorporated by reference in Sec. 170.299). Implementation 
 specifications. Implementation Guide for Immunization Data Transactions 
 using Version 2.3.1 of the Health Level Seven (HL7) Standard Protocol 
 Implementation Guide Version 2.2 (incorporated by reference in Sec. 
 170.299).
     (2) Standard. HL7 2.5.1 (incorporated by reference in Sec. 
+170.299). Implementation specifications. HL7 2.5.1 Implementation
+
+
+
+Guide for Immunization Messaging Release 1.0 (incorporated by reference 
+in Sec. 170.299).
+    (3) Standard. HL7 2.5.1 (incorporated by reference in Sec. 
 170.299). Implementation specifications. HL7 2.5.1 Implementation Guide 
-for Immunization Messaging Release 1.0 (incorporated by reference in 
+for Immunization Messaging, Release 1.4, (incorporated by reference in 
 Sec. 170.299).
     (f) Quality reporting. Standard. The CMS Physician Quality Reporting 
 Initiative (PQRI) 2009 Registry XML Specification (incorporated by 
 reference in Sec. 170.299). Implementation specifications. Physician 
 Quality Reporting Initiative Measure Specifications Manual for Claims 
 and Registry (incorporated by reference in Sec. 170.299).
+    (g) Electronic transmission of lab results to public health 
+agencies. Standard. HL7 2.5.1 (incorporated by reference in Sec. 
+170.299). Implementation specifications. HL7 Version 2.5.1 
+Implementation Guide: Electronic Laboratory Reporting to Public Health, 
+Release 1 (US Realm) (incorporated by reference in Sec. 170.299) with 
+Errata and Clarifications, (incorporated by reference in Sec. 170.299) 
+and ELR 2.5.1 Clarification Document for EHR Technology Certification, 
+(incorporated by reference in Sec. 170.299).
+    (h) Clinical quality measure data import, export, and electronic 
+submission. Standard. HL7 Implementation Guide for CDA[supreg] Release 
+2: Quality Reporting Document Architecture, (incorporated by reference 
+in Sec. 170.299).
+    (i) Cancer information. Standard. HL7 Clinical Document Architecture 
+(CDA), Release 2.0, Normative Edition (incorporated by reference in 
+Sec. 170.299). Implementation specifications. Implementation Guide for 
+Ambulatory Healthcare Provider Reporting to Central Cancer Registries, 
+HL7 Clinical Document Architecture (CDA), (incorporated by reference in 
+Sec. 170.299).
+    (j) Electronic incorporation and transmission of lab results. 
+Standard. HL7 Version 2.5.1 Implementation Guide: S&I Framework Lab 
+Results Interface, (incorporated by reference in Sec. 170.299).
+    (k) Clinical quality measure aggregate electronic submission. 
+Standard. Quality Reporting Document Architecture Category III, 
+Implementation Guide for CDA Release 2 (incorporated by reference in 
+Sec. 170.299).
 
-[75 FR 44649, July 28, 2010, as amended at 75 FR 62690, Oct. 13, 2010]
+[75 FR 44649, July 28, 2010, as amended at 75 FR 62690, Oct. 13, 2010; 
+77 FR 54284, Sept. 4, 2012]
 
 
 
@@ -258,31 +417,71 @@ electronic health information:
 162.1002(a)(1) for the indicated conditions.
     (2) Standard. International Health Terminology Standards Development 
 Organization (IHTSDO) Systematized Nomenclature of Medicine Clinical 
-Terms (SNOMED CT) July 2009 version (incorporated by 
-reference in Sec. 170.299).
+Terms (SNOMED CT [supreg]) July 2009 version (incorporated by reference 
+in Sec. 170.299).
+    (3) Standard. IHTSDO SNOMED CT[supreg] International Release July 
+2012 (incorporated by reference in Sec. 170.299) and US Extension to 
+SNOMED CT[supreg] March 2012 Release (incorporated by reference in Sec. 
+170.299).
     (b) Procedures--(1) Standard. The code set specified at 45 CFR 
 162.1002(a)(2).
     (2) Standard. The code set specified at 45 CFR 162.1002(a)(5).
-    (c) Laboratory test results. Standard. Logical Observation 
-Identifiers Names and Codes (LOINC) version 2.27, when 
-such codes were received within an electronic transaction from a 
-laboratory (incorporated by reference in Sec. 170.299).
-    (d) Medications. Standard. Any source vocabulary that is included in 
-RxNorm, a standardized nomenclature for clinical drugs produced by the 
-United States National Library of Medicine.
-    (e) Immunizations. Standard. HL7 Standard Code Set CVX--Vaccines 
+    (3) Standard. The code set specified at 45 CFR 162.1002(a)(4).
+    (4) Standard. The code set specified at 45 CFR 162.1002(c)(3) for 
+the indicated procedures or other actions taken.
+    (c) Laboratory tests--(1) Standard. Logical Observation Identifiers 
+Names and Codes (LOINC[supreg]) version 2.27, when such codes were 
+received within an electronic transaction from a laboratory 
+(incorporated by reference in Sec. 170.299).
+    (2) Standard. Logical Observation Identifiers Names and Codes 
+(LOINC[supreg]) Database version 2.40, a universal code system for 
+identifying laboratory and clinical observations produced by the 
+Regenstrief Institute, Inc. (incorporated by reference in Sec. 
+170.299).
+    (d) Medications--(1) Standard. Any source vocabulary that is 
+included in RxNorm, a standardized nomenclature for clinical drugs 
+produced by the United States National Library of Medicine.
+
+
+
+    (2) Standard. RxNorm, a standardized nomenclature for clinical drugs 
+produced by the United States National Library of Medicine, August 6, 
+2012 Release (incorporated by reference in Sec. 170.299).
+    (e) Immunizations--(1) Standard. HL7 Standard Code Set CVX--Vaccines 
 Administered, July 30, 2009 version (incorporated by reference in Sec. 
+170.299).
+    (2) Standard. HL7 Standard Code Set CVX--Vaccines Administered, 
+updates through July 11, 2012 (incorporated by reference in Sec. 
 170.299).
     (f) Race and Ethnicity. Standard. The Office of Management and 
 Budget Standards for Maintaining, Collecting, and Presenting Federal 
-Data on Race and Ethnicity, Statistical Policy Directive No. 15, October 
-30, 1997 (available at http://www.whitehouse.gov/omb/rewrite/fedreg/
-ombdir15.html).
+Data on Race and Ethnicity, Statistical Policy Directive No. 15, as 
+revised, October 30, 1997 (see ``Revisions to the Standards for the 
+Classification of Federal Data on Race and Ethnicity,'' available at 
+http://www.whitehouse.gov/omb/fedreg--1997standards).
+    (g) Preferred language. Standard. As specified by the Library of 
+Congress, ISO 639-2 alpha-3 codes limited to those that also have a 
+corresponding alpha-2 code in ISO 639-1. (incorporated by reference in 
+Sec. 170.299).
+    (h) Smoking status. Standard. Smoking status must be coded in one of 
+the following SNOMED CT[supreg] codes:
+    (1) Current every day smoker. 449868002
+    (2) Current some day smoker. 428041000124106
+    (3) Former smoker. 8517006
+    (4) Never smoker. 266919005
+    (5) Smoker, current status unknown. 77176002
+    (6) Unknown if ever smoked. 266927001
+    (7) Heavy tobacco smoker. 428071000124103
+    (8) Light tobacco smoker. 428061000124105
+    (i) Encounter diagnoses. Standard. The code set specified at 45 CFR 
+162.1002(c)(2) for the indicated conditions.
+    (j) Family health history. HL7 Version 3 Standard: Clinical 
+Genomics; Pedigree, (incorporated by reference in Sec. 170.299).
+
+[75 FR 44649, July 28, 2010, as amended at 77 FR 54284, Sept. 4, 2012]
 
 
 
-
-[reg][reg]
 Sec. 170.210  Standards for health information technology to protect 
 
 electronic health information created, maintained, and exchanged.
@@ -293,7 +492,8 @@ health information created, maintained, and exchanged:
 General. Any encryption algorithm identified by the National Institute 
 of Standards and Technology (NIST) as an approved security function in 
 Annex A of the Federal Information Processing Standards (FIPS) 
-Publication 140-2 (incorporated by reference in Sec. 170.299).
+Publication 140-2, (January 27, 2010) (incorporated by reference in 
+Sec. 170.299).
     (2) Exchange. Any encrypted and integrity protected link.
     (b) Record actions related to electronic health information. The 
 date, time, patient identification, and user identification must be 
@@ -304,13 +504,47 @@ by whom must also be recorded.
 altered in transit. Standard. A hashing algorithm with a security 
 strength equal to or greater than SHA-1 (Secure Hash Algorithm (SHA-1) 
 as specified by the National Institute of Standards and Technology 
-(NIST) in FIPS PUB 180-3 (October, 2008)) must be used to verify that 
+(NIST) in FIPS PUB 180-4 (March 2012)) must be used to verify that 
 electronic health information has not been altered.
     (d) Record treatment, payment, and health care operations 
 disclosures. The date, time, patient identification, user 
 identification, and a description of the disclosure must be recorded for 
 disclosures for treatment, payment, and health care operations, as these 
 terms are defined at 45 CFR 164.501.
+    (e) Record actions related to electronic health information, audit 
+log status, and encryption of end-user devices. (1)(i) The audit log 
+must record the information specified in sections 7.2 through 7.4, 7.6, 
+and 7.7 of the standard specified at Sec. 170.210(h) when EHR 
+technology is in use.
+    (ii) The date and time must be recorded in accordance with the 
+standard specified at Sec. 170.210(g).
+
+
+
+    (2)(i) The audit log must record the information specified in 
+sections 7.2 and 7.4 of the standard specified at Sec. 170.210(h) when 
+the audit log status is changed.
+    (ii) The date and time each action occurs in accordance with the 
+standard specified at Sec. 170.210(g).
+    (3) The audit log must record the information specified in sections 
+7.2 and 7.4 of the standard specified at Sec. 170.210(h) when the 
+encryption status of electronic health information locally stored by EHR 
+technology on end-user devices is changed. The date and time each action 
+occurs in accordance with the standard specified at Sec. 170.210(g).
+    (f) Encryption and hashing of electronic health information. Any 
+encryption and hashing algorithm identified by the National Institute of 
+Standards and Technology (NIST) as an approved security function in 
+Annex A of the FIPS Publication 140-2 (incorporated by reference in 
+Sec. 170.299).
+    (g) Synchronized clocks. The date and time recorded utilize a system 
+clock that has been synchronized following (RFC 1305) Network Time 
+Protocol, (incorporated by reference in Sec. 170.299) or (RFC 5905) 
+Network Time Protocol Version 4, (incorporated by reference in Sec. 
+170.299).
+    (h) Audit log content. ASTM E2147-01(Reapproved 2009), (incorporated 
+by reference in Sec. 170.299)
+
+[75 FR 44649, July 28, 2010, as amended at 77 FR 54285, Sept. 4, 2012]
 
 
 
@@ -331,8 +565,68 @@ the National Coordinator for Health Information Technology, Hubert H.
 Humphrey Building, Suite 729D, 200 Independence Ave., SW., Washington, 
 DC 20201, call ahead to arrange for inspection at 202-690-7151, and is 
 available from the sources listed below.
-    (b) Health Level Seven, 3300 Washtenaw Avenue, Suite 227, Ann Arbor, 
-MI 48104; Telephone (734) 677-7777 or http://www.hl7.org/.
+    (b) American National Standards Institute, Health Information 
+Technology Standards Panel (HITSP) Secretariat, 25 West 43rd Street--
+Fourth Floor, New York, NY 10036, http://www.hitsp.org.
+    (1) HITSP Summary Documents Using HL7 Continuity of Care Document 
+(CCD) Component, HITSP/C32, July 8, 2009, Version 2.5, IBR approved for 
+Sec. 170.205.
+    (2) [Reserved]
+    (c) ASTM International, 100 Barr Harbor Drive, PO Box C700, West 
+Conshohocken, PA, 19428-2959 USA; Telephone (610) 832-9585 or http://
+www.astm.org/.
+    (1) ASTM E2147-01 (Reapproved 2009) Standard Specification for Audit 
+and Disclosure Logs for Use in Health Information Systems, approved 
+September 1, 2009, IBR approved for Sec. 170.210.
+    (2) ASTM E2369-05: Standard Specification for Continuity of Care 
+Record (CCR), year of adoption 2005, ASTM approved July 17, 2006, IBR 
+approved for Sec. 170.205.
+    (3) ASTM E2369-05 (Adjunct to E2369): Standard Specification 
+Continuity of Care Record,--Final Version 1.0 (V1.0), November 7, 2005, 
+IBR approved for Sec. 170.205.
+    (d) Centers for Disease Control and Prevention, 2500 Century 
+Parkway, Mailstop E-78, Atlanta, GA 30333, USA (800-232-4636); http://
+www.cdc.gov/ehrmeaningfuluse/.
+    (1) HL7 Standard Code Set CVX--Vaccines Administered, July 30, 2009, 
+IBR approved for Sec. 170.207.
+    (2) IIS: HL7 Standard Code Set CVX--Vaccines Administered, updates 
+through July 11, 2012, IBR approved for Sec. 170.207.
+    (3) Implementation Guide for Immunization Data Transactions using 
+Version 2.3.1 of the Health Level Seven
+
+
+
+(HL7)Standard Protocol Implementation Guide Version 2.2, June 2006, IBR 
+approved for Sec. 170.205.
+    (4) HL7 2.5.1 Implementation Guide for Immunization Messaging 
+Release 1.0, May 1, 2010, IBR approved for Sec. 170.205.
+    (5) PHIN Messaging Guide for Syndromic Surveillance: Emergency 
+Department and Urgent Care Data, ADT Messages A01, A03, A04, and A08, 
+HL7 Version 2.5.1 (Version 2.3.1 Compatible), Release 1.1, August 2012, 
+IBR approved for Sec. 170.205.
+    (6) Conformance Clarification for EHR Certification of Electronic 
+Syndromic Surveillance, ADT MESSAGES A01, A03, A04, and A08, HL7 Version 
+2.5.1, Addendum to PHIN Messaging Guide for Syndromic Surveillance: 
+Emergency Department and Urgent Care Data (Release 1.1), August 2012, 
+IBR approved for Sec. 170.205.
+    (7) HL7 2.5.1 Implementation Guide for Immunization Messaging, 
+Release 1.4, August 1, 2012, IBR approved for Sec. 170.205.
+    (8) Implementation Guide for Ambulatory Healthcare Provider 
+Reporting to Central Cancer Registries, HL7 Clinical Document 
+Architecture (CDA), Release 1.0, August 2012, IBR approved for Sec. 
+170.205.
+    (9) ELR 2.5.1 Clarification Document for EHR Technology 
+Certification, July 16, 2012, IBR approved for Sec. 170.205.
+    (e) Centers for Medicare & Medicaid Services, Office of Clinical 
+Standards and Quality, 7500 Security Boulevard, Baltimore, Maryland 
+21244; Telephone (410) 786-3000
+    (1) CMS PQRI 2009 Registry XML Specifications, IBR approved for 
+Sec. 170.205.
+    (2) 2009 Physician Quality Reporting Initiative Measure 
+Specifications Manual for Claims and Registry, Version 3.0, December 8, 
+2008 IBR approved for Sec. 170.205.
+    (f) Health Level Seven, 3300 Washtenaw Avenue, Suite 227, Ann Arbor, 
+MI 48104; Telephone (734) 677-7777 or http://www.hl7.org/
     (1) Health Level Seven Standard Version 2.3.1 (HL7 2.3.1), An 
 Application Protocol for Electronic Data Exchange in Healthcare 
 Environments, April 14, 1999, IBR approved for Sec. 170.205.
@@ -344,23 +638,54 @@ Architecture (CDA) Release 2--Continuity of Care Document (CCD), April
 01, 2007, IBR approved for Sec. 170.205.
     (4) HL7 Version 2.5.1 Implementation Guide: Electronic Laboratory 
 Reporting to Public Health, Release 1 (US Realm) HL7 Version 2.5.1: 
-ORU>
-, HL7 Informative Document, February, 2010, IBR approved 
+ORU[supcaret]R01, HL7 Informative Document, February, 2010, IBR approved 
 for Sec. 170.205.
-    (5) [Reserved]
-    (c) ASTM International, 100 Barr Harbor Drive, PO Box C700, West 
-Conshohocken, PA, 19428-2959 USA; Telephone (610) 832-9585 or http://
-www.astm.org/.
-    (1) ASTM E2369-05: Standard Specification for Continuity of Care 
-Record (CCR), year of adoption 2005, ASTM approved July 17, 2006, IBR 
-approved for Sec. 170.205.
-    (2) ASTM E2369-05 (Adjunct to E2369): Standard Specification 
-Continuity of Care Record,--Final Version 1.0 (V1.0), November 7, 2005, 
+    (5) HL7 Version 3 Standard: Context-Aware Retrieval Application 
+(Infobutton); Release 1, July 2010, IBR approved for Sec. 170.204.
+    (6) HL7 Version 3 Implementation Guide: URL-Based Implementations of 
+the Context-Aware Information Retrieval (Infobutton) Domain, Release 3, 
+December 2010, IBR approved for Sec. 170.204.
+    (7) HL7 Version 3 Implementation Guide: Context-Aware Knowledge 
+Retrieval (Infobutton) Service-Oriented Architecture Implementation 
+Guide, Release 1, HL7 Draft Standard for Trial Use, March 2011, IBR 
+approved for Sec. 170.204.
+    (8) HL7 Implementation Guide for CDA[supreg] Release 2: IHE Health 
+Story Consolidation, DSTU Release 1.1 (US Realm) Draft Standard for 
+Trial Use July 2012, IBR approved for Sec. 170.205.
+    (9) HL7 Clinical Document Architecture, Release 2.0, Normative 
+Edition, May 2005, IBR approved for Sec. 170.205.
+    (10) HL7 Version 2.5.1 Implementation Guide: S&I Framework Lab 
+Results Interface, Release 1--US Realm [HL7 Version 2.5.1: ORU-R01] 
+Draft Standard for Trial Use, July 2012, IBR approved for Sec. 170.205.
+    (11) HL7 Version 3 Standard: Clinical Genomics; Pedigree, Release 1, 
+Edition 2011, March 2012, IBR approved for Sec. 170.207.
+    (12) HL7 Implementation Guide for CDA[supreg] Release 2: Quality 
+Reporting Document Architecture, DTSU Release 2 (Universal Realm), Draft 
+Standard for Trial Use, July 2012, IBR approved for Sec. 170.205.
+
+
+
+    (13) HL7 v2.5.1 IG: Electronic Laboratory Reporting to Public Health 
+(US Realm), Release 1 Errata and Clarifications, September, 29, 2011, 
 IBR approved for Sec. 170.205.
-
-
-
-    (d) National Council for Prescription Drug Programs, Incorporated, 
+    (14) HL7 Implementation Guide for CDA[supreg] Release 2: Quality 
+Reporting Document Architecture--Category III, DSTU Release 1 (US Realm) 
+Draft Standard for Trial Use, November 2012, IBR approved for Sec. 
+170.205.
+    (g) Internet Engineering Task Force (IETF), University of Delaware, 
+Newark, DE 19716, Telephone (302) 831-8247, http://www.ietf.org/
+rfc.html.
+    (1) Network Time Protocol (Version 3) Specification, Implementation 
+and Analysis, March 1992, IBR approved for Sec. 170.210.
+    (2) Network Time Protocol Version 4: Protocol and Algorithms 
+Specification, June 2010, IBR approved for Sec. 170.210.
+    (h) Library of Congress, Network Development and MARC Standards 
+Office, Washington, DC 20540-4402, Tel: (202) 707-6237 or http://
+www.loc.gov/standards/iso639-2/.
+    (1) ISO 639-2. Codes for the Representation of Names of Languages 
+Part 2: Alpha-3 Code, April 8, 2011, IBR approved for Sec. 170.207.
+    (2) [Reserved]
+    (i) National Council for Prescription Drug Programs, Incorporated, 
 9240 E. Raintree Drive, Scottsdale, AZ 85260- 7518; Telephone (480) 477-
 1000; and Facsimile (480) 767-1042 or http://www.ncpdp.org.
     (1) National Council for Prescription Drug Programs Prescriber/
@@ -369,62 +694,68 @@ Release 1, October 2005, IBR approved for Sec. 170.205.
     (2) SCRIPT Standard, Implementation Guide, Version 10.6, October, 
 2008, (Approval date for ANSI: November 12, 2008), IBR approved for 
 Sec. 170.205.
-    (3) [Reserved]
-    (e) Regenstrief Institute, Inc., LOINC c/o Medical 
-Informatics The Regenstrief Institute, Inc 410 West 10th Street, Suite 
-2000 Indianapolis, IN 46202-3012; Telephone (317) 423-5558 or http://
-loinc.org/.
-    (1) Logical Observation Identifiers Names and Codes 
-(LOINC) version 2.27, June 15, 2009, IBR approved for 
-Sec. 170.207.
-    (2) [Reserved]
-    (f) U.S. National Library of Medicine, 8600 Rockville Pike, 
-Bethesda, MD 20894; Telephone (301) 594-5983 or http://www.nlm.nih.gov/.
-    (1) International Health Terminology Standards Development 
-Organization Systematized Nomenclature of Medicine Clinical Terms 
-(SNOMED CT), International Release, July 2009, IBR 
-approved for Sec. 170.207.
-    (2) [Reserved]
-    (g) Centers for Disease Control and Prevention, National Centers for 
-Immunization and Respiratory Diseases Immunization Information System 
-Support Branch--Informatics 1600 Clifton Road Mailstop: E-62 Atlanta, GA 
-30333.
-    (1) HL7 Standard Code Set CVX--Vaccines Administered, July 30, 2009, 
-IBR approved for Sec. 170.207.
-    (2) Implementation Guide for Immunization Data Transactions using 
-Version 2.3.1 of the Health Level Seven (HL7) Standard Protocol 
-Implementation Guide Version 2.2, June 2006, IBR approved for Sec. 
-170.205.
-    (3) HL7 2.5.1 Implementation Guide for Immunization Messaging 
-Release 1.0, May 1, 2010, IBR approved for Sec. 170.205.
-    (4) [Reserved]
-    (h) Centers for Medicare & Medicaid Services, Office of Clinical 
-Standards and Quality, 7500 Security Boulevard, Baltimore, Maryland 
-21244; Telephone (410) 786-3000
-    (1) CMS PQRI 2009 Registry XML Specifications, IBR approved for 
-Sec. 170.205.
-    (2) 2009 Physician Quality Reporting Initiative Measure 
-Specifications Manual for Claims and Registry, Version 3.0, December 8, 
-2008 IBR approved for Sec. 170.205.
-    (i) National Institute of Standards and Technology, Information 
+    (j) National Institute of Standards and Technology, Information 
 Technology Laboratory, National Institute of Standards and Technology, 
 100 Bureau Drive, Gaithersburg, MD 20899-8930, http://csrc.nist.gov/
 groups/STM/cmvp/standards.html.
     (1) Annex A: Approved Security Functions for FIPS PUB 140-2, 
 Security Requirements for Cryptographic Modules, Draft, January 27, 
 2010, IBR approved for Sec. 170.210.
+    (2) Annex A: Approved Security Functions for FIPS PUB 140-2, 
+Security Requirements for Cryptographic Modules, Draft, May 30, 2012, 
+IBR approved for Sec. 170.210.
+    (k) Office of the National Coordinator for Health Information 
+Technology (ONC), 200 Independence Avenue SW., Suite 729-D, Washington, 
+DC 20201, http://healthit.hhs.gov.
+    (1) Applicability Statement for Secure Health Transport, Version 
+1.1, July 10, 2012, IBR approved for Sec. 170.202; available at http://
+healthit.hhs.gov/portal/server.pt/community/healthit--hhs--gov----
+direct--project/3338.
+    (2) XDR and XDM for Direct Messaging Specification, Version 1, March 
+9, 2011, IBR approved for Sec. 170.202; available at http://
+healthit.hhs.gov/portal/server.pt/community/healthit--hhs--gov----
+direct--project/3338.
+    (3) Transport and Security Specification, Version 1.0, June 19, 
+2012, IBR approved for Sec. 170.202.
+    (l) Regenstrief Institute, Inc., LOINC[supreg] c/o Medical 
+Informatics The Regenstrief Institute, Inc 410 West 10th Street, Suite 
+2000 Indianapolis, IN 46202-3012; Telephone (317) 423-5983 or http://
+loinc.org/.
+    (1) Logical Observation Identifiers Names and Codes (LOINC[supreg]) 
+version 2.27, June 15, 2009, IBR approved for Sec. 170.207.
+    (2) Logical Observation Identifiers Names and Codes (LOINC[supreg]) 
+Database version 2.40, Released June 2012, IBR approved for Sec. 
+170.207.
+    (m) U.S. National Library of Medicine, 8600 Rockville Pike, 
+Bethesda, MD 20894; Telephone (301) 594-5983 or http://www.nlm.nih.gov/.
+    (1) International Health Terminology Standards Development 
+Organization Systematized Nomenclature of Medicine Clinical Terms 
+(SNOMED CT[supreg]), International Release, July 2009, IBR approved for 
+Sec. 170.207.
+    (2) International Health Terminology Standards Development 
+Organisation (IHTSDO) Systematized Nomenclature of Medicine Clinical 
+Terms (SNOMED CT[supreg]) International Release July 31, 2012, IBR 
+approved for Sec. 170.207.
+
+
+
+    (3) US Extension to SNOMED CT[supreg] March 2012 Release, IBR 
+approved for Sec. 170.207.
+    (4) RxNorm, August 6, 2012 Full Release Update, IBR approved for 
+Sec. 170.207.
+    (5) Data Element Catalog, Version 1.1, October 2012, IBR approved 
+for Sec. 170.204.
+    (n) World Wide Web Consortium (W3C)/MIT, 32 Vassar Street, Room 32-
+G515, Cambridge, MA 02139 USA, http://www.w3.org/standards/
+    (1) Web Content Accessibility Guidelines (WCAG) 2.0, December 11, 
+2008, IBR approved for Sec. 170.204.
     (2) [Reserved]
-    (j) American National Standards Institute, Health Information 
-Technology Standards Panel (HITSP) Secretariat, 25 West 43rd Street--
-Fourth Floor, New York, NY 10036, http://www.hitsp.org
-    (1) HITSP Summary Documents Using HL7 Continuity of Care Document 
-(CCD) Component, HITSP/C32, July 8, 2009, Version 2.5, IBR approved for 
-Sec. 170.205.
 
-[75 FR 44649, July 28, 2010, as amended at 75 FR 62690, Oct. 13, 2010]
+[75 FR 44649, July 28, 2010, as amended at 75 FR 62690, Oct. 13, 2010; 
+77 FR 54285, Sept. 4, 2012; 77 FR 72991, Dec. 7, 2012]
 
 
-[reg][reg][reg]
+
    Subpart C_Certification Criteria for Health Information Technology
 
     Source: 75 FR 44651, July 28, 2010, unless otherwise noted.
@@ -438,11 +769,22 @@ testing and certification of Complete EHRs and EHR Modules.
     (b) When a certification criterion refers to two or more standards 
 as alternatives, use of at least one of the alternative standards will 
 be considered compliant.
-
-
-
     (c) Complete EHRs and EHR Modules are not required to be compliant 
-with certification criteria that are designated as optional.
+with certification criteria or capabilities specified within a 
+certification criterion that are designated as optional.
+    (d) In Sec. 170.314, all certification criteria and all 
+capabilities specified within a certification criterion have general 
+applicability (i.e., apply to both ambulatory and inpatient settings) 
+unless designated as ``inpatient setting only'' or ``ambulatory setting 
+only.''
+    (1) ``Inpatient setting only'' means that the criterion or 
+capability within the criterion is only required for certification of 
+EHR technology designed for use in an inpatient setting.
+    (2) ``Ambulatory setting only'' means that the criterion or 
+capability within the criterion is only required for certification of 
+EHR technology designed for use in an ambulatory setting.
+
+[75 FR 44649, July 28, 2010, as amended at 77 FR 54286, Sept. 4, 2012]
 
 
 
@@ -477,6 +819,9 @@ as medication history for longitudinal care.
 electronically record, modify, and retrieve a patient's active 
 medication allergy list as well as medication allergy history for 
 longitudinal care.
+
+
+
     (f) Record and chart vital signs--(1) Vital signs. Enable a user to 
 electronically record, modify, and retrieve a patient's vital signs 
 including, at a minimum, height, weight, and blood pressure.
@@ -517,9 +862,6 @@ specified in Sec. 170.205(e)(1) or Sec. 170.205(e)(2); and
 retrieve, and submit syndrome-based public health surveillance 
 information in accordance with the standard specified in Sec. 
 170.205(d)(1) or Sec. 170.205(d)(2).
-
-
-
     (m) Patient-specific education resources. Enable a user to 
 electronically identify and provide patient-specific education resources 
 according to, at a minimum, the data elements included in the patient's: 
@@ -538,7 +880,7 @@ for emergency situations) to access electronic health information during
 an emergency.
     (q) Automatic log-off. Terminate an electronic session after a 
 predetermined time of inactivity.
-    (r) Audit log. (1)--Record actions. Record actions related to 
+    (r) Audit log--(1) Record actions. Record actions related to 
 electronic health information in accordance with the standard specified 
 in Sec. 170.210(b).
     (2) Generate audit log. Enable a user to generate an audit log for a 
@@ -551,8 +893,11 @@ standard specified in Sec. 170.210(c).
 that such information has not been altered.
     (3) Detection. Detect the alteration of audit logs.
     (t) Authentication. Verify that a person or entity seeking access to 
-electronic health information is the one claimed and is authorized to 
-access such information.
+electronic health information is the one
+
+
+
+claimed and is authorized to access such information.
     (u) General encryption. Encrypt and decrypt electronic health 
 information in accordance with the standard specified in Sec. 
 170.210(a)(1), unless the Secretary determines that the use of such 
@@ -597,12 +942,9 @@ language, gender, race, ethnicity, and date of birth. Enable race and
 ethnicity to be recorded in accordance with the standard specified at 
 Sec. 170.207(f).
     (d) Patient reminders. Enable a user to electronically generate a 
-patient reminder list for preventive or follow-up
-
-
-
-care according to patient preferences based on, at a minimum, the data 
-elements included in:
+patient reminder list for preventive or follow-up care according to 
+patient preferences based on, at a minimum, the data elements included 
+in:
     (1) Problem list;
     (2) Medication list;
     (3) Medication allergy list;
@@ -635,6 +977,9 @@ standard specified in Sec. 170.207(c); and
     (g) Timely access. Enable a user to provide patients with online 
 access to their clinical information, including, at a minimum, lab test 
 results, problem list, medication list, and medication allergy list.
+
+
+
     (h) Clinical summaries. Enable a user to provide clinical summaries 
 to patients for each office visit that include, at a minimum, diagnostic 
 test results, problem list, medication list, and medication allergy 
@@ -673,9 +1018,6 @@ minimum, the version of the standard specified in Sec. 170.207(a)(2);
     (B) Laboratory test results. At a minimum, the version of the 
 standard specified in Sec. 170.207(c); and
     (C) Medications. The standard specified in Sec. 170.207(d).
-
-
-
     (j) Calculate and submit clinical quality measures--(1) Calculate 
 (i) Electronically calculate all of the core clinical measures specified 
 by CMS for eligible professionals.
@@ -712,9 +1054,12 @@ ethnicity to be recorded in accordance with the standard specified at
 Sec. 170.207(f).
     (c) Clinical decision support--(1) Implement rules. Implement 
 automated, electronic clinical decision support rules (in addition to 
-drug-drug and drug-allergy contraindication checking) based on the data 
-elements included in: problem list; medication list; demographics; and 
-laboratory test results.
+drug-drug and drug-allergy contraindication checking) based
+
+
+
+on the data elements included in: problem list; medication list; 
+demographics; and laboratory test results.
     (2) Notifications. Automatically and electronically generate and 
 indicate in real-time, notifications and care suggestions based upon 
 clinical decision support rules.
@@ -752,9 +1097,6 @@ with the standard (and applicable implementation specifications)
 specified in Sec. 170.205(a)(1) or Sec. 170.205(a)(2). Upon receipt of 
 a patient summary record formatted according to the alternative 
 standard, display it in human readable format.
-
-
-
     (2) Electronically transmit. Enable a user to electronically 
 transmit a patient's summary record to other providers and organizations 
 including, at a minimum, diagnostic results, problem list, medication 
@@ -783,6 +1125,569 @@ by CMS for eligible hospitals and critical access hospitals.
     (2) Submission. Enable a user to electronically submit calculated 
 clinical quality measures in accordance with the standard and 
 implementation specifications specified in Sec. 170.205(f).
+
+
+
+Sec. 170.314  2014 Edition electronic health record certification criteria.
+
+    The Secretary adopts the following certification criteria for 
+Complete EHRs or EHR Modules. Complete EHRs or EHR Modules must include 
+the capability to perform the following functions electronically, unless 
+designated as optional, and in accordance with all
+
+
+
+applicable standards and implementation specifications adopted in this 
+part:
+    (a) Clinical. (1) Computerized provider order entry. Enable a user 
+to electronically record, change, and access the following order types, 
+at a minimum:
+    (i) Medications;
+    (ii) Laboratory; and
+    (iii) Radiology/imaging.
+    (2) Drug-drug, drug-allergy interaction checks. (i) Interventions. 
+Before a medication order is completed and acted upon during 
+computerized provider order entry (CPOE), interventions must 
+automatically and electronically indicate to a user drug-drug and drug-
+allergy contraindications based on a patient's medication list and 
+medication allergy list.
+    (ii) Adjustments. (A) Enable the severity level of interventions 
+provided for drug-drug interaction checks to be adjusted.
+    (B) Limit the ability to adjust severity levels to an identified set 
+of users or available as a system administrative function.
+    (3) Demographics. (i) Enable a user to electronically record, 
+change, and access patient demographic data including preferred 
+language, sex, race, ethnicity, and date of birth.
+    (A) Enable race and ethnicity to be recorded in accordance with the 
+standard specified in Sec. 170.207(f) and whether a patient declines to 
+specify race and/or ethnicity.
+    (B) Enable preferred language to be recorded in accordance with the 
+standard specified in Sec. 170.207(g) and whether a patient declines to 
+specify a preferred language.
+    (ii) Inpatient setting only. Enable a user to electronically record, 
+change, and access preliminary cause of death in the event of a 
+mortality.
+    (4) Vital signs, body mass index, and growth charts. (i) Vital 
+signs. Enable a user to electronically record, change, and access, at a 
+minimum, a patient's height/length, weight, and blood pressure. Height/
+length, weight, and blood pressure must be recorded in numerical values 
+only.
+    (ii) Calculate body mass index. Automatically calculate and 
+electronically display body mass index based on a patient's height and 
+weight.
+    (iii) Optional--Plot and display growth charts. Plot and 
+electronically display, upon request, growth charts for patients.
+    (5) Problem list. Enable a user to electronically record, change, 
+and access a patient's active problem list:
+    (i) Ambulatory setting. Over multiple encounters in accordance with, 
+at a minimum, the version of the standard specified in Sec. 
+170.207(a)(3); or
+    (ii) Inpatient setting. For the duration of an entire 
+hospitalization in accordance with, at a minimum, the version of the 
+standard specified in Sec. 170.207(a)(3).
+    (6) Medication list. Enable a user to electronically record, change, 
+and access a patient's active medication list as well as medication 
+history:
+    (i) Ambulatory setting. Over multiple encounters; or
+    (ii) Inpatient setting. For the duration of an entire 
+hospitalization.
+    (7) Medication allergy list. Enable a user to electronically record, 
+change, and access a patient's active medication allergy list as well as 
+medication allergy history:
+    (i) Ambulatory setting. Over multiple encounters; or
+    (ii) Inpatient setting. For the duration of an entire 
+hospitalization.
+    (8) Clinical decision support. (i) Evidence-based decision support 
+interventions. Enable a limited set of identified users to select (i.e., 
+activate) one or more electronic clinical decision support interventions 
+(in addition to drug-drug and drug-allergy contraindication checking) 
+based on each one and at least one combination of the following data:
+    (A) Problem list;
+    (B) Medication list;
+    (C) Medication allergy list;
+    (D) Demographics;
+    (E) Laboratory tests and values/results; and
+    (F) Vital signs.
+    (ii) Linked referential clinical decision support. (A) EHR 
+technology must be able to:
+    (1) Electronically identify for a user diagnostic and therapeutic 
+reference information; or
+    (2) Electronically identify for a user diagnostic and therapeutic 
+reference information in accordance with the
+
+
+
+standard specified at Sec. 170.204(b) and the implementation 
+specifications at Sec. 170.204 (b)(1) or (2).
+    (B) For paragraph (a)(8)(ii)(A) of this section, EHR technology must 
+be able to electronically identify for a user diagnostic or therapeutic 
+reference information based on each one and at least one combination of 
+the data referenced in paragraphs (a)(8)(i)(A) through (F) of this 
+section.
+    (iii) Clinical decision support configuration. (A) Enable 
+interventions and reference resources specified in paragraphs (a)(8)(i) 
+and (ii) of this section to be configured by a limited set of identified 
+users (e.g., system administrator) based on a user's role.
+    (B) EHR technology must enable interventions to be electronically 
+triggered:
+    (1) Based on the data referenced in paragraphs (a)(8)(i)(A) through 
+(F) of this section.
+    (2) When a patient's medications, medication allergies, and problems 
+are incorporated from a transition of care/referral summary received 
+pursuant to paragraph (b)(1)(iii) of this section.
+    (3) Ambulatory setting only. When a patient's laboratory tests and 
+values/results are incorporated pursuant to paragraph (b)(5)(i)(A)(1) of 
+this section.
+    (iv) Automatically and electronically interact. Interventions 
+triggered in accordance with paragraphs (a)(8)(i) through (iii) of this 
+section must automatically and electronically occur when a user is 
+interacting with EHR technology.
+    (v) Source attributes. Enable a user to review the attributes as 
+indicated for all clinical decision support resources:
+    (A) For evidence-based decision support interventions under 
+paragraph (a)(8)(i) of this section:
+    (1) Bibliographic citation of the intervention (clinical research/
+guideline);
+    (2) Developer of the intervention (translation from clinical 
+research/guideline);
+    (3) Funding source of the intervention development technical 
+implementation; and
+    (4) Release and, if applicable, revision date(s) of the intervention 
+or reference source.
+    (B) For linked referential clinical decision support in paragraph 
+(a)(8)(ii) of this section and drug-drug, drug-allergy interaction 
+checks in paragraph(a)(2) of this section, the developer of the 
+intervention, and where clinically indicated, the bibliographic citation 
+of the intervention (clinical research/guideline).
+    (9) Electronic notes. Enable a user to electronically record, 
+change, access, and search electronic notes.
+    (10) Drug-formulary checks. EHR technology must automatically and 
+electronically check whether a drug formulary (or preferred drug list) 
+exists for a given patient and medication.
+    (11) Smoking status. Enable a user to electronically record, change, 
+and access the smoking status of a patient in accordance with the 
+standard specified at Sec. 170.207(h).
+    (12) Image results. Electronically indicate to a user the 
+availability of a patient's images and narrative interpretations 
+(relating to the radiographic or other diagnostic test(s)) and enable 
+electronic access to such images and narrative interpretations.
+    (13) Family health history. Enable a user to electronically record, 
+change, and access a patient's family health history according to:
+    (i) At a minimum, the version of the standard specified in Sec. 
+170.207(a)(3); or
+    (ii) The standard specified in Sec. 170.207(j).
+    (14)  Patient list creation. Enable a user to electronically and 
+dynamically select, sort, access, and create patient lists by: date and 
+time; and based on each one and at least one combination of the 
+following data:
+    (i) Problems;
+    (ii) Medications;
+    (iii) Medication allergies;
+    (iv) Demographics;
+    (v) Laboratory tests and values/results; and
+    (vi) Ambulatory setting only. Patient communication preferences.
+    (15) Patient-specific education resources. EHR technology must be 
+able to electronically identify for a user patient-specific education 
+resources based on data included in the patient's problem list, 
+medication list, and laboratory tests and values/results:
+
+
+
+    (i) In accordance with the standard specified at Sec. 170.204(b) 
+and the implementation specifications at Sec. 170.204(b)(1) or (2); and
+    (ii) By any means other than the method specified in paragraph 
+(a)(15)(i) of this section.
+    (16) Inpatient setting only--electronic medication administration 
+record. (i) In combination with an assistive technology that provides 
+automated information on the ``rights'' specified in paragraphs 
+(a)(16)(i)(A) through (E) of this section, enable a user to 
+electronically verify the following before administering medication(s):
+    (A) Right patient. The patient to whom the medication is to be 
+administered matches the medication to be administered.
+    (B) Right medication. The medication to be administered matches the 
+medication ordered for the patient.
+    (C) Right dose. The dose of the medication to be administered 
+matches the dose of the medication ordered for the patient.
+    (D) Right route. The route of medication delivery matches the route 
+specified in the medication order.
+    (E) Right time. The time that the medication was ordered to be 
+administered compared to the current time.
+    (ii) Right documentation. Electronically record the time and date in 
+accordance with the standard specified in Sec. 170.210(g), and user 
+identification when a medication is administered.
+    (17) Inpatient setting only--advance directives. Enable a user to 
+electronically record whether a patient has an advance directive.
+    (b) Care coordination--(1) Transitions of care--receive, display, 
+and incorporate transition of care/referral summaries. (i) Receive. EHR 
+technology must be able to electronically receive transition of care/
+referral summaries in accordance with:
+    (A) The standard specified in Sec. 170.202(a).
+    (B) Optional. The standards specified in Sec. 170.202(a) and (b).
+    (C) Optional. The standards specified in Sec. 170.202(b) and (c).
+    (ii) Display. EHR technology must be able to electronically display 
+in human readable format the data included in transition of care/
+referral summaries received and formatted according to any of the 
+following standards (and applicable implementation specifications) 
+specified in: Sec. 170.205(a)(1), Sec. 170.205(a)(2), and Sec. 
+170.205(a)(3).
+    (iii) Incorporate. Upon receipt of a transition of care/referral 
+summary formatted according to the standard adopted at Sec. 
+170.205(a)(3), EHR technology must be able to:
+    (A) Correct patient. Demonstrate that the transition of care/
+referral summary received is or can be properly matched to the correct 
+patient.
+    (B) Data incorporation. Electronically incorporate the following 
+data expressed according to the specified standard(s):
+    (1) Medications. At a minimum, the version of the standard specified 
+in Sec. 170.207(d)(2);
+    (2) Problems. At a minimum, the version of the standard specified in 
+Sec. 170.207(a)(3);
+    (3) Medication allergies. At a minimum, the version of the standard 
+specified in Sec. 170.207(d)(2).
+    (C) Section views. Extract and allow for individual display each 
+additional section or sections (and the accompanying document header 
+information) that were included in a transition of care/referral summary 
+received and formatted in accordance with the standard adopted at Sec. 
+170.205(a)(3).
+    (2) Transitions of care--create and transmit transition of care/
+referral summaries. (i) Create. Enable a user to electronically create a 
+transition of care/referral summary formatted according to the standard 
+adopted at Sec. 170.205(a)(3) that includes, at a minimum, the Common 
+MU Data Set and the following data expressed, where applicable, 
+according to the specified standard(s):
+    (A) Encounter diagnoses. The standard specified in Sec. 170.207(i) 
+or, at a minimum, the version of the standard specified Sec. 
+170.207(a)(3);
+    (B) Immunizations. The standard specified in Sec. 170.207(e)(2);
+    (C) Cognitive status;
+    (D) Functional status; and
+    (E) Ambulatory setting only. The reason for referral; and referring 
+or transitioning provider's name and office contact information.
+
+
+
+    (F) Inpatient setting only. Discharge instructions.
+    (ii) Transmit. Enable a user to electronically transmit the 
+transition of care/referral summary created in paragraph (b)(2)(i) of 
+this section in accordance with:
+    (A) The standard specified in Sec. 170.202(a).
+    (B) Optional. The standards specified in Sec. 170.202(a) and (b).
+    (C) Optional. The standards specified in Sec. 170.202(b) and (c).
+    (3) Electronic prescribing. Enable a user to electronically create 
+prescriptions and prescription-related information for electronic 
+transmission in accordance with:
+    (i) The standard specified in Sec. 170.205(b)(2); and
+    (ii) At a minimum, the version of the standard specified in Sec. 
+170.207(d)(2).
+    (4) Clinical information reconciliation. Enable a user to 
+electronically reconcile the data that represent a patient's active 
+medication, problem, and medication allergy list as follows. For each 
+list type:
+    (i) Electronically and simultaneously display (i.e., in a single 
+view) the data from at least two list sources in a manner that allows a 
+user to view the data and their attributes, which must include, at a 
+minimum, the source and last modification date.
+    (ii) Enable a user to create a single reconciled list of 
+medications, medication allergies, or problems.
+    (iii) Enable a user to review and validate the accuracy of a final 
+set of data and, upon a user's confirmation, automatically update the 
+list.
+    (5) Incorporate laboratory tests and values/results. (i) Receive 
+results. (A) Ambulatory setting only. (1) Electronically receive and 
+incorporate clinical laboratory tests and values/results in accordance 
+with the standard specified in Sec. 170.205(j) and, at a minimum, the 
+version of the standard specified in Sec. 170.207(c)(2).
+    (2) Electronically display the tests and values/results received in 
+human readable format.
+    (B) Inpatient setting only. Electronically receive clinical 
+laboratory tests and values/results in a structured format and 
+electronically display such tests and values/results in human readable 
+format.
+    (ii) Electronically display all the information for a test report 
+specified at 42 CFR 493.1291(c)(1) through (7).
+    (iii) Electronically attribute, associate, or link a laboratory test 
+and value/result with a laboratory order or patient record.
+    (6) Inpatient setting only--transmission of electronic laboratory 
+tests and values/results to ambulatory providers. EHR technology must be 
+able to electronically create laboratory test reports for electronic 
+transmission in accordance with the standard specified in Sec. 
+170.205(j) and with laboratory tests expressed in accordance with, at a 
+minimum, the version of the standard specified in Sec. 170.207(c)(2).
+    (7) Data portability. Enable a user to electronically create a set 
+of export summaries for all patients in EHR technology formatted 
+according to the standard adopted at Sec. 170.205(a)(3) that represents 
+the most current clinical information about each patient and includes, 
+at a minimum, the Common MU Data Set and the following data expressed, 
+where applicable, according to the specified standard(s):
+    (i) Encounter diagnoses. The standard specified in Sec. 170.207(i) 
+or, at a minimum, the version of the standard at Sec. 170.207(a)(3);
+    (ii) Immunizations. The standard specified in Sec. 170.207(e)(2);
+    (iii) Cognitive status;
+    (iv) Functional status; and
+    (v) Ambulatory setting only. The reason for referral; and referring 
+or transitioning provider's name and office contact information.
+    (vi) Inpatient setting only. Discharge instructions.
+    (c) Clinical quality measures--(1) Clinical Quality Measures--
+capture and export. (i) Capture. For each and every CQM for which the 
+EHR technology is presented for certification, EHR technology must be 
+able to electronically record all of the data identified in the standard 
+specified at Sec. 170.204(c) that would be necessary to calculate each 
+CQM. Data required for CQM exclusions or exceptions must be codified 
+entries, which may include specific terms as defined by each CQM, or may 
+include
+
+
+
+codified expressions of ``patient reason,'' ``system reason,'' or 
+``medical reason.''
+    (ii) Export. EHR technology must be able to electronically export a 
+data file formatted in accordance with the standards specified at Sec. 
+170.205(h) that includes all of the data captured for each and every CQM 
+to which EHR technology was certified under paragraph (c)(1)(i) of this 
+section.
+    (2) Clinical quality measures--import and calculate. (i) Import. EHR 
+technology must be able to electronically import a data file formatted 
+in accordance with the standard specified at Sec. 170.205(h) and use 
+such data to perform the capability specified in paragraph (c)(2)(ii) of 
+this section. EHR technology presented for certification to all three of 
+the certification criteria adopted in paragraphs (c)(1) through (3) of 
+this section is not required to meet paragraph (c)(2)(i).
+    (ii) Calculate. EHR technology must be able to electronically 
+calculate each and every clinical quality measure for which it is 
+presented for certification.
+    (3) Clinical quality measures--electronic submission. Enable a user 
+to electronically create a data file for transmission of clinical 
+quality measurement data:
+    (i) In accordance with the standards specified at Sec. 170.205(h) 
+and (k); and
+    (ii) That can be electronically accepted by CMS.
+    (d) Privacy and security--(1) Authentication, access control, and 
+authorization. (i) Verify against a unique identifier(s) (e.g., username 
+or number) that a person seeking access to electronic health information 
+is the one claimed; and
+    (ii) Establish the type of access to electronic health information a 
+user is permitted based on the unique identifier(s) provided in 
+paragraph (d)(1)(i) of this section, and the actions the user is 
+permitted to perform with the EHR technology.
+    (2) Auditable events and tamper-resistance. (i) Record actions. EHR 
+technology must be able to:
+    (A) Record actions related to electronic health information in 
+accordance with the standard specified in Sec. 170.210(e)(1);
+    (B) Record the audit log status (enabled or disabled) in accordance 
+with the standard specified in Sec. 170.210(e)(2) unless it cannot be 
+disabled by any user; and
+    (C) Record the encryption status (enabled or disabled) of electronic 
+health information locally stored on end-user devices by EHR technology 
+in accordance with the standard specified in Sec. 170.210(e)(3) unless 
+the EHR technology prevents electronic health information from being 
+locally stored on end-user devices (see 170.314(d)(7) of this section).
+    (ii) Default setting. EHR technology must be set by default to 
+perform the capabilities specified in paragraph (d)(2)(i)(A) of this 
+section and, where applicable, paragraphs (d)(2)(i)(B) or (C), or both 
+paragraphs (d)(2)(i)(B) and (C).
+    (iii) When disabling the audit log is permitted. For each capability 
+specified in paragraphs (d)(2)(i)(A) through (C) of this section that 
+EHR technology permits to be disabled, the ability to do so must be 
+restricted to a limited set of identified users.
+    (iv) Audit log protection. Actions and statuses recorded in 
+accordance with paragraph (d)(2)(i) of this section must not be capable 
+of being changed, overwritten, or deleted by the EHR technology.
+    (v) Detection. EHR technology must be able to detect whether the 
+audit log has been altered.
+    (3) Audit report(s). Enable a user to create an audit report for a 
+specific time period and to sort entries in the audit log according to 
+each of the data specified in the standards at Sec. 170.210(e).
+    (4) Amendments. Enable a user to electronically select the record 
+affected by a patient's request for amendment and perform the 
+capabilities specified in paragraphs (d)(4)(i) or (ii) of this section.
+    (i) Accepted amendment. For an accepted amendment, append the 
+amendment to the affected record or include a link that indicates the 
+amendment's location.
+    (ii) Denied amendment. For a denied amendment, at a minimum, append 
+the request and denial of the request to the affected record or include 
+a link that indicates this information's location.
+
+
+
+    (5) Automatic log-off. Prevent a user from gaining further access to 
+an electronic session after a predetermined time of inactivity.
+    (6) Emergency access. Permit an identified set of users to access 
+electronic health information during an emergency.
+    (7) End-user device encryption. Paragraph (d)(7)(i) or (ii) of this 
+section must be met to satisfy this certification criterion.
+    (i) EHR technology that is designed to locally store electronic 
+health information on end-user devices must encrypt the electronic 
+health information stored on such devices after use of EHR technology on 
+those devices stops.
+    (A) Electronic health information that is stored must be encrypted 
+in accordance with the standard specified in Sec. 170.210(a)(1).
+    (B) Default setting. EHR technology must be set by default to 
+perform this capability and, unless this configuration cannot be 
+disabled by any user, the ability to change the configuration must be 
+restricted to a limited set of identified users.
+    (ii) EHR technology is designed to prevent electronic health 
+information from being locally stored on end-user devices after use of 
+EHR technology on those devices stops.
+    (8) Integrity. (i) Create a message digest in accordance with the 
+standard specified in Sec. 170.210(c).
+    (ii) Verify in accordance with the standard specified in Sec. 
+170.210(c) upon receipt of electronically exchanged health information 
+that such information has not been altered.
+    (9) Optional--accounting of disclosures. Record disclosures made for 
+treatment, payment, and health care operations in accordance with the 
+standard specified in Sec. 170.210(d).
+    (e) Patient engagement--(1) View, download, and transmit to 3rd 
+party. (i) EHR technology must provide patients (and their authorized 
+representatives) with an online means to view, download, and transmit to 
+a 3rd party the data specified below. Access to these capabilities must 
+be through a secure channel that ensures all content is encrypted and 
+integrity-protected in accordance with the standard for encryption and 
+hashing algorithms specified at Sec. 170.210(f).
+    (A) View. Electronically view in accordance with the standard 
+adopted at Sec. 170.204(a), at a minimum, the following data:
+    (1) The Common MU Data Set (which should be in their English (i.e., 
+non-coded) representation if they associate with a vocabulary/code set).
+    (2) Ambulatory setting only. Provider's name and office contact 
+information.
+    (3) Inpatient setting only. Admission and discharge dates and 
+locations; discharge instructions; and reason(s) for hospitalization.
+    (B) Download. (1) Electronically download an ambulatory summary or 
+inpatient summary (as applicable to the EHR technology setting for which 
+certification is requested) in human readable format or formatted 
+according to the standard adopted at Sec. 170.205(a)(3) that includes, 
+at a minimum, the following data (which, for the human readable version, 
+should be in their English representation if they associate with a 
+vocabulary/code set):
+    (i) Ambulatory setting only. All of the data specified in paragraph 
+(e)(1)(i)(A)(1) and (2) of this section.
+    (ii) Inpatient setting only. All of the data specified in paragraphs 
+(e)(1)(i)(A)(1) and (3) of this section.
+    (2) Inpatient setting only. Electronically download transition of 
+care/referral summaries that were created as a result of a transition of 
+care (pursuant to the capability expressed in the certification 
+criterion adopted at paragraph (b)(2) of this section).
+    (C) Transmit to third party. (1) Electronically transmit the 
+ambulatory summary or inpatient summary (as applicable to the EHR 
+technology setting for which certification is requested) created in 
+paragraph (e)(1)(i)(B)(1) of this section in accordance with the 
+standard specified in Sec. 170.202(a).
+    (2) Inpatient setting only. Electronically transmit transition of 
+care/referral summaries (as a result of a transition of care/referral) 
+selected by the patient (or their authorized representative) in 
+accordance with the standard specified in Sec. 170.202(a).
+    (ii) Activity history log. (A) When electronic health information is 
+viewed, downloaded, or transmitted to a third-
+
+
+
+party using the capabilities included in paragraphs (e)(1)(i)(A) through 
+(C) of this section, the following information must be recorded and made 
+accessible to the patient:
+    (1) The action(s) (i.e., view, download, transmission) that 
+occurred;
+    (2) The date and time each action occurred in accordance with the 
+standard specified at Sec. 170.210(g); and
+    (3) The user who took the action.
+    (B) EHR technology presented for certification may demonstrate 
+compliance with paragraph (e)(1)(ii)(A) of this section if it is also 
+certified to the certification criterion adopted at Sec. 170.314(d)(2) 
+and the information required to be recorded in paragraph (e)(1)(ii)(A) 
+is accessible by the patient.
+    (2) Ambulatory setting only--clinical summary. (i) Create. Enable a 
+user to create a clinical summary for a patient in human readable format 
+and formatted according to the standards adopted at Sec. 170.205(a)(3).
+    (ii) Customization. Enable a user to customize the data included in 
+the clinical summary.
+    (iii) Minimum data from which to select. EHR technology must permit 
+a user to select, at a minimum, the following data when creating a 
+clinical summary:
+    (A) Common MU Data Set (which, for the human readable version, 
+should be in their English representation if they associate with a 
+vocabulary/code set)
+    (B) The provider's name and office contact information; date and 
+location of visit; reason for visit; immunizations and/or medications 
+administered during the visit; diagnostic tests pending; clinical 
+instructions; future appointments; referrals to other providers; future 
+scheduled tests; and recommended patient decision aids.
+    (3) Ambulatory setting only--secure messaging. Enable a user to 
+electronically send messages to, and receive messages from, a patient in 
+a manner that ensures:
+    (i) Both the patient (or authorized representative) and EHR 
+technology user are authenticated; and
+    (ii) The message content is encrypted and integrity-protected in 
+accordance with the standard for encryption and hashing algorithms 
+specified at Sec. 170.210(f).
+    (f) Public health--(1) Immunization information. Enable a user to 
+electronically record, change, and access immunization information.
+    (2) Transmission to immunization registries. EHR technology must be 
+able to electronically create immunization information for electronic 
+transmission in accordance with:
+    (i) The standard and applicable implementation specifications 
+specified in Sec. 170.205(e)(3); and
+    (ii) At a minimum, the version of the standard specified in Sec. 
+170.207(e)(2).
+    (3) Transmission to public health agencies--syndromic surveillance. 
+EHR technology must be able to electronically create syndrome-based 
+public health surveillance information for electronic transmission in 
+accordance with:
+    (i) Ambulatory setting only. (A) The standard specified in Sec. 
+170.205(d)(2). (B) Optional. The standard (and applicable implementation 
+specifications) specified in Sec. 170.205(d)(3).
+    (ii) Inpatient setting only. The standard (and applicable 
+implementation specifications) specified in Sec. 170.205(d)(3).
+    (4) Inpatient setting only--transmission of reportable laboratory 
+tests and values/results. EHR technology must be able to electronically 
+create reportable laboratory tests and values/results for electronic 
+transmission in accordance with:
+    (i) The standard (and applicable implementation specifications) 
+specified in Sec. 170.205(g); and
+    (ii) At a minimum, the versions of the standards specified in Sec. 
+170.207(a)(3) and (c)(2).
+    (5) Optional--ambulatory setting only--cancer case information. 
+Enable a user to electronically record, change, and access cancer case 
+information.
+    (6) Optional--ambulatory setting only--transmission to cancer 
+registries. EHR technology must be able to electronically create cancer 
+case information for electronic transmission in accordance with:
+    (i) The standard (and applicable implementation specifications) 
+specified in Sec. 170.205(i); and
+    (ii) At a minimum, the versions of the standards specified in Sec. 
+170.207(a)(3) and (c)(2).
+
+
+
+    (g) Utilization--(1) Automated numerator recording. For each 
+meaningful use objective with a percentage-based measure, EHR technology 
+must be able to create a report or file that enables a user to review 
+the patients or actions that would make the patient or action eligible 
+to be included in the measure's numerator. The information in the report 
+or file created must be of sufficient detail such that it enables a user 
+to match those patients or actions to meet the measure's denominator 
+limitations when necessary to generate an accurate percentage.
+    (2) Automated measure calculation. For each meaningful use objective 
+with a percentage-based measure that is supported by a capability 
+included in an EHR technology, electronically record the numerator and 
+denominator and create a report including the numerator, denominator, 
+and resulting percentage associated with each applicable meaningful use 
+measure.
+    (3) Safety-enhanced design. User-centered design processes must be 
+applied to each capability an EHR technology includes that is specified 
+in the following certification criteria: Sec. 170.314(a)(1), (2), (6) 
+through (8), and (16) and (b)(3) and (4).
+    (4) Quality management system. For each capability that an EHR 
+technology includes and for which that capability's certification is 
+sought, the use of a Quality Management System (QMS) in the development, 
+testing, implementation and maintenance of that capability must be 
+identified.
+    (i) If a single QMS was used for applicable capabilities, it would 
+only need to be identified once.
+    (ii) If different QMS were applied to specific capabilities, each 
+QMS applied would need to be identified. This would include the 
+application of a QMS to some capabilities and none to others.
+    (iii) If no QMS was applied to all applicable capabilities such a 
+response is acceptable to satisfy this certification criterion.
+
+[77 FR 54287, Sept. 4, 2012]
 
 
 
@@ -831,6 +1736,9 @@ organization or a consortium of organizations that has applied to and
 been authorized by the National Coordinator pursuant to this subpart to 
 perform the testing and certification of Complete EHRs and/or EHR 
 Modules under the temporary certification program.
+
+
+
     Remote testing and certification means the use of methods, including 
 the use of web-based tools or secured electronic transmissions, that do 
 not require an ONC-ATCB to be physically present at the development or 
@@ -842,12 +1750,9 @@ Sec. 170.405  Correspondence.
 
     (a) Correspondence and communication with the National Coordinator 
 shall be conducted by e-mail, unless otherwise necessary. The official 
-date of receipt of any e-mail between the
-
-
-
-National Coordinator and an applicant for ONC-ATCB status or an ONC-ATCB 
-is the day the e-mail was sent.
+date of receipt of any e-mail between the National Coordinator and an 
+applicant for ONC-ATCB status or an ONC-ATCB is the day the e-mail was 
+sent.
     (b) In circumstances where it is necessary for an applicant for ONC-
 ATCB status or an ONC-ATCB to correspond or communicate with the 
 National Coordinator by regular or express mail, the official date of 
@@ -917,6 +1822,9 @@ testing nonconformities according to section 4.9.1 of ISO/IEC
     (iii) The qualifications of each of the applicant's personnel who 
 oversee or conduct testing according to section 5.2 of ISO/IEC 
 17025:2005.
+
+
+
     (4) An agreement, properly executed by the applicant's authorized 
 representative, that it will adhere to the Principles of Proper Conduct 
 for ONC-ATCBs.
@@ -932,9 +1840,6 @@ Sec. 170.423  Principles of proper conduct for ONC-ATCBs.
 Guide 65:1996 (incorporated by reference in Sec. 170.499) and testing 
 program in accordance with ISO/IEC 17025:2005 (incorporated by reference 
 in Sec. 170.499);
-
-
-
     (b) Maintain an effective quality management system which addresses 
 all requirements of ISO/IEC 17025:2005 (incorporated by reference in 
 Sec. 170.499);
@@ -995,9 +1900,12 @@ Modules;
 certification to Complete EHRs and/or EHR Modules:
     (1) All certifications must require that a Complete EHR or EHR 
 Module developer conspicuously include the following text on its Web 
-site and in all marketing materials, communications statements, and 
-other assertions related to the Complete EHR or EHR Module's 
-certification:
+site and in all marketing materials, communications
+
+
+
+statements, and other assertions related to the Complete EHR or EHR 
+Module's certification:
     (i) ``This [Complete EHR or EHR Module] is 201[X]/201[X] compliant 
 and has been certified by an ONC-ATCB in accordance with the applicable 
 certification criteria adopted by the Secretary of Health and Human 
@@ -1007,9 +1915,6 @@ incentive payments.''; and
     (ii) The information an ONC-ATCB is required to report to the 
 National Coordinator under paragraph (h) of this section for the 
 specific Complete EHR or EHR Module at issue;
-
-
-
     (2) A certification issued to an integrated bundle of EHR Modules 
 shall be treated the same as a certification issued to a Complete EHR 
 for the purposes of paragraph (k)(1) of this section except that it must 
@@ -1074,11 +1979,15 @@ revised application once it has been received and may request
 clarification of statements and the correction of errors or omissions in 
 a revised application during this time period.
     (4) If the National Coordinator determines that a revised 
-application still contains deficiencies, the applicant will be issued a 
-denial notice indicating that the applicant will no longer be considered 
-for authorization under the temporary certification program. An 
-applicant may request reconsideration of a denial in accordance with 
-Sec. 170.435.
+application still
+
+
+
+contains deficiencies, the applicant will be issued a denial notice 
+indicating that the applicant will no longer be considered for 
+authorization under the temporary certification program. An applicant 
+may request reconsideration of a denial in accordance with Sec. 
+170.435.
     (d) Satisfactory application. (1) An application will be deemed 
 satisfactory if it meets all application requirements, including a 
 passing score on the proficiency examination.
@@ -1086,13 +1995,9 @@ passing score on the proficiency examination.
 representative of its satisfactory application and its successful 
 achievement of ONC-ATCB status.
     (3) Once notified by the National Coordinator of its successful 
-achievement
-
-
-
-of ONC-ATCB status, the applicant may represent itself as an ONC-ATCB 
-and begin testing and certifying Complete EHRs and/or EHR Modules 
-consistent with its authorization.
+achievement of ONC-ATCB status, the applicant may represent itself as an 
+ONC-ATCB and begin testing and certifying Complete EHRs and/or EHR 
+Modules consistent with its authorization.
 
 
 
@@ -1157,6 +2062,8 @@ sunset of the temporary certification program in accordance with Sec.
 
 
 
+
+
 Sec. 170.445  Complete EHR testing and certification.
 
     (a) An ONC-ATCB must test and certify Complete EHRs to all 
@@ -1169,9 +2076,6 @@ adopted by the Secretary at subpart C of this part.
 a newer version of a previously certified Complete EHR to inherit the 
 previously certified Complete EHR's certified status without requiring 
 the newer version to be retested and recertified.
-
-
-
     (1) Before granting certified status to a newer version of a 
 previously certified Complete EHR, an ONC-ATCB must review an 
 attestation submitted by the developer of the Complete EHR to determine 
@@ -1234,8 +2138,11 @@ standards.
 
     (a) ONC-ATCBs may test and certify Complete EHRs and EHR Module to a 
 newer version of certain identified minimum standards specified at 
-subpart B of this part if the Secretary has accepted a newer version of 
-an adopted minimum standard.
+subpart B of this part if the Secretary has
+
+
+
+accepted a newer version of an adopted minimum standard.
     (b) Applicability of an accepted new version of an adopted minimum 
 standard.
     (1) ONC-ATCBs are not required to test and certify Complete EHRs 
@@ -1245,11 +2152,8 @@ provision of the adopted version is updated in the Federal Register with
 a newer version.
     (2) Certified EHR Technology may be upgraded to comply with newer 
 versions of an adopted minimum standard accepted by the Secretary 
-without adversely affecting the certification
-
-
-
-status of the Certified EHR Technology.
+without adversely affecting the certification status of the Certified 
+EHR Technology.
 
 
 
@@ -1315,6 +2219,9 @@ status.
     (c) Proposed revocation. (1) The National Coordinator may propose to 
 revoke an ONC-ATCB's status if the National Coordinator has reliable 
 evidence that the ONC-ATCB committed a Type-1 violation; or
+
+
+
     (2) The National Coordinator may propose to revoke an ONC-ATCB's 
 status if, after the ONC-ATCB has been notified of a Type-2 violation, 
 the ONC-ATCB fails to:
@@ -1325,12 +2232,9 @@ corrected; or
 noncompliance notification within the specified timeframe under 
 paragraph (b)(2).
     (d) Suspension of an ONC-ATCB's operations. (1) The National 
-Coordinator may suspend the operations of an ONC-
-
-
-
-ATCB under the temporary certification program based on reliable 
-evidence indicating that:
+Coordinator may suspend the operations of an ONC-ATCB under the 
+temporary certification program based on reliable evidence indicating 
+that:
     (i) The ONC-ATCB committed a Type-1 or Type-2 violation; and
     (ii) The continued testing and certification of Complete EHRs and/or 
 EHR Modules by the ONC-ATCB could have an adverse impact on the health 
@@ -1388,8 +2292,12 @@ ATCB is effective as soon as the ONC-ATCB receives the revocation
 notice.
     (2) A testing and certification body that has had its ONC-ATCB 
 status revoked is prohibited from accepting new requests for testing and 
-certification and must cease its current testing and certification 
-operations under the temporary certification program.
+certification
+
+
+
+and must cease its current testing and certification operations under 
+the temporary certification program.
     (3) A testing and certification body that has had its ONC-ATCB 
 status revoked for a Type-1 violation is prohibited from reapplying for 
 ONC-ATCB status under the temporary certification program for one year. 
@@ -1397,9 +2305,6 @@ If the temporary certification program sunsets during this time, the
 testing and certification body is prohibited from applying for ONC-ACB 
 status under the permanent certification program for the time that 
 remains within the one year prohibition.
-
-
-
     (4) The failure of a testing and certification body that has had its 
 ONC-ATCB status revoked, to promptly refund any and all fees for tests 
 and/or certifications of Complete EHRs and EHR Modules not completed 
@@ -1466,7 +2371,10 @@ For information on the availability of this material at NARA, call 202-
 federal--regulations/ibr--locations.html. Also, it is available for 
 inspection at U.S. Department of Health and Human Services, Office of 
 the National Coordinator for Health Information Technology, Hubert H. 
-Humphrey Building, Suite 729D, 200 Independence Ave, SW., Washington, DC 
+Humphrey Building, Suite 729D, 200 Independence Ave, SW., Washington, DC
+
+
+
 20201, call ahead to arrange for inspection at 202-690-7151, and is 
 available from the source listed below.
     (b) International Organization for Standardization, Case postale 56, 
@@ -1475,9 +2383,6 @@ http://www.iso.org.
     (1) ISO/IEC 17025 General Requirements for the Competence of Testing 
 and Calibration Laboratories (Second Edition), May 15, 2005, IBR 
 approved for Sec. 170.420 and Sec. 170.423.
-
-
-
     (2) ISO/IEC GUIDE 65 General Requirements for Bodies Operating 
 Product Certification Systems (First Edition), 1996, IBR approved for 
 Sec. 170.420 and Sec. 170.423.
@@ -1485,7 +2390,7 @@ Sec. 170.420 and Sec. 170.423.
 
 
 
-            Subpart E_Permanent Certification Program for HIT
+                 Subpart E_ONC HIT Certification Program
 
     Source: 76 FR 1325, Dec. 7, 2011, unless otherwise noted.
 
@@ -1494,10 +2399,12 @@ Sec. 170.420 and Sec. 170.423.
 Sec. 170.500  Basis and scope.
 
     This subpart implements section 3001(c)(5) of the Public Health 
-Service Act and sets forth the rules and procedures related to the 
-permanent certification program for health information technology (HIT) 
+Service Act and sets forth the rules and procedures related to the ONC 
+HIT Certification Program for health information technology (HIT) 
 administered by the National Coordinator for Health Information 
 Technology.
+
+[76 FR 1325, Dec. 7, 2011, as amended at 77 FR 54291, Sept. 4, 2012]
 
 
 
@@ -1513,9 +2420,11 @@ HIT in accordance with the applicable certification criteria adopted by
 the Secretary in subpart C of this part. It also establishes the 
 processes accreditation organizations must follow to request approval 
 from the National Coordinator and that the National Coordinator in turn 
-will follow to approve an accreditation organization under the permanent 
-certification program as well as certain ongoing responsibilities for an 
+will follow to approve an accreditation organization under the ONC HIT 
+Certification Program as well as certain ongoing responsibilities for an 
 ONC-AA.
+
+[76 FR 1325, Dec. 7, 2011, as amended at 77 FR 54291, Sept. 4, 2012]
 
 
 
@@ -1540,25 +2449,28 @@ Secretary at subpart C of this part based on the test results used to
 previously certify the Complete EHR or EHR Module(s).
     ONC-Approved Accreditor or ONC-AA means an accreditation 
 organization that the National Coordinator has approved to accredit 
-certification bodies under the permanent certification program.
+certification bodies under the ONC HIT Certification Program.
     ONC-Authorized Certification Body or ONC-ACB means an organization 
 or a consortium of organizations that has applied to and been authorized 
 by the National Coordinator pursuant to this subpart to perform the 
 certification of Complete EHRs, EHR Module(s), and/or other types of HIT 
-under the permanent certification program.
+under the ONC HIT Certification Program.
     Providing or provide an updated certification means the action taken 
 by an ONC-ACB to ensure that the developer of a previously certified EHR 
 Module(s) shall update the information required by Sec. 
 170.523(k)(1)(i), after the ONC-ACB has verified that the certification 
-criterion or criteria to which the EHR Module(s) was previously 
-certified have not been revised and that no new certification criteria 
-adopted for privacy and security are applicable to the EHR Module(s).
+criterion or criteria to which the EHR
+
+
+
+Module(s) was previously certified have not been revised and that no new 
+certification criteria are applicable to the EHR Module(s).
     Remote certification means the use of methods, including the use of 
 web-based tools or secured electronic transmissions, that do not require 
 an ONC-ACB to be physically present at the development or deployment 
 site to conduct certification.
 
-
+[76 FR 1325, Dec. 7, 2011, as amended at 77 FR 54291, Sept. 4, 2012]
 
 
 
@@ -1604,7 +2516,7 @@ process in Sec. 170.504. All other accreditation organizations will be
 notified that their requests for ONC-AA status have been denied. The 
 accreditation organization that is selected on a preliminary basis shall 
 not represent itself as the ONC-AA or perform accreditation(s) under the 
-permanent certification program unless and until it receives written 
+ONC HIT Certification Program unless and until it receives written 
 notice from the National Coordinator that it has been approved as the 
 ONC-AA on a final basis pursuant to paragraph (d) of this section.
     (4) Any accreditation organization that submits a timely request for 
@@ -1621,21 +2533,22 @@ further review.
     (2) If the National Coordinator determines that no accreditation 
 organization has met the standard specified in Sec. 170.504(b), then 
 the organization that was selected as the ONC-AA on a preliminary basis 
-pursuant to paragraph (c) of this section will be approved as the ONC-AA 
-on a final basis.
+pursuant to paragraph
+
+
+
+(c) of this section will be approved as the ONC-AA on a final basis.
     (e) ONC-AA ongoing responsibilities. An ONC-AA must:
     (1) Maintain conformance with ISO/IEC 17011:2004 (incorporated by 
 reference in Sec. 170.599);
-    (2) In accrediting certification bodies, verify conformance to, at a 
-minimum, ISO/IEC Guide 65:1996 (incorporated by reference in Sec. 
-170.599) and ensure the surveillance approaches used by ONC-ACBs include 
-the use of consistent, objective, valid, and reliable methods;
-
-
-
-    (3) Verify that ONC-ACBs are performing surveillance in accordance 
+    (2) Verify that the certification bodies it accredits and ONC-ACBs 
+conform to, at a minimum, ISO/IEC Guide 65:1996 (incorporated by 
+reference in Sec. 170.599);
+    (3) Ensure the surveillance approaches used by ONC-ACBs include the 
+use of consistent, objective, valid, and reliable methods;
+    (4) Verify that ONC-ACBs are performing surveillance in accordance 
 with their respective annual plans; and
-    (4) Review ONC-ACB surveillance results to determine if the results 
+    (5) Review ONC-ACB surveillance results to determine if the results 
 indicate any substantive non-conformance by ONC-ACBs with the conditions 
 of their respective accreditations.
     (f) ONC-AA status.
@@ -1648,6 +2561,9 @@ date its status was granted by the National Coordinator.
     (3) The National Coordinator will accept requests for ONC-AA status, 
 in accordance with paragraph (b) of this section, at least 180 days 
 before the current ONC-AA's status is set to expire.
+
+[76 FR 1325, Dec. 7, 2011, as amended at 76 FR 72642, Nov. 25, 2011; 77 
+FR 54291, Sept. 4, 2012]
 
 
 
@@ -1698,6 +2614,8 @@ will be the date of the delivery confirmation.
 
 
 
+
+
 Sec. 170.510  Types of certification.
 
     Applicants may seek authorization from the National Coordinator to 
@@ -1715,14 +2633,11 @@ Sec. 170.520  Application.
 for ONC-ACB status and submit it to the National Coordinator for the 
 application to be considered complete.
     (a) The type of authorization sought pursuant to Sec. 170.510. For 
-authorization
-
-
-
-to perform EHR Module certification, applicants must indicate the 
-specific type(s) of EHR Module(s) they seek authorization to certify. If 
-qualified, applicants will only be granted authorization to certify the 
-type(s) of EHR Module(s) for which they seek authorization.
+authorization to perform EHR Module certification, applicants must 
+indicate the specific type(s) of EHR Module(s) they seek authorization 
+to certify. If qualified, applicants will only be granted authorization 
+to certify the type(s) of EHR Module(s) for which they seek 
+authorization.
     (b) General identifying, information including:
     (1) Name, address, city, state, zip code, and Web site of applicant; 
 and
@@ -1740,7 +2655,10 @@ for ONC-ACBs.
 Sec. 170.523  Principles of proper conduct for ONC-ACBs.
 
     An ONC-ACB shall:
-    (a) Maintain its accreditation;
+    (a) Maintain its accreditation, or if a new ONC-AA is approved by 
+the National Coordinator, obtain accreditation from the new ONC-AA 
+within 12 months or a reasonable period specified by the National 
+Coordinator and maintain such accreditation;
     (b) Attend all mandatory ONC training and program update sessions;
     (c) Maintain a training program that includes documented procedures 
 and training requirements to ensure its personnel are competent to 
@@ -1759,7 +2677,7 @@ ability to certify HIT.
     (e) Allow ONC, or its authorized agent(s), to periodically observe 
 on site (unannounced or scheduled), during normal business hours, any 
 certifications performed to demonstrate compliance with the requirements 
-of the permanent certification program;
+of the ONC HIT Certification Program;
     (f) Provide ONC, no less frequently than weekly, a current list of 
 Complete EHRs and/or EHR Modules that have been certified, which 
 includes, at a minimum:
@@ -1775,11 +2693,17 @@ Module relied upon to demonstrate its compliance with a certification
 criterion or criteria adopted by the Secretary; and
     (7) Where applicable, the certification criterion or criteria to 
 which each EHR Module has been certified.
+    (8) A hyperlink to the test results used to certify the Complete 
+EHRs and/or EHR Modules that can be accessed by the public.
     (g) Retain all records related to the certification of Complete EHRs 
 and/or EHR Module(s) for a minimum of 5 years;
     (h) Only certify HIT, including Complete EHRs and/or EHR Module(s), 
-that has been tested, using test tools and test procedures approved by 
-the National Coordinator, by a/an:
+that
+
+
+
+has been tested, using test tools and test procedures approved by the 
+National Coordinator, by a/an:
     (1) NVLAP-accredited testing laboratory; or
     (2) ONC-ATCB when:
     (i) Certifying previously certified EHR Module(s) if the 
@@ -1797,24 +2721,25 @@ operations are suspended by the National Coordinator;
 conduct; and
     (3) Previous certifications that it performed if its conduct 
 necessitates the recertification of Complete EHRs and/or EHR Module(s);
-
-
-
     (k) Ensure adherence to the following requirements when issuing a 
 certification to a Complete EHR and/or EHR Module(s):
     (1) A Complete EHR or EHR Module developer must conspicuously 
 include the following on its Web site and in all marketing materials, 
 communications statements, and other assertions related to the Complete 
 EHR or EHR Module's certification:
-    (i) ``This [Complete EHR or EHR Module] is 20[XX]/20[XX] compliant 
-and has been certified by an ONC-ACB in accordance with the applicable 
-certification criteria adopted by the Secretary of Health and Human 
-Services. This certification does not represent an endorsement by the 
-U.S. Department of Health and Human Services or guarantee the receipt of 
-incentive payments.''; and
+    (i) ``This [Complete EHR or EHR Module] is [specify Edition of EHR 
+certification criteria] compliant and has been certified by an ONC-ACB 
+in accordance with the applicable certification criteria adopted by the 
+Secretary of Health and Human Services. This certification does not 
+represent an endorsement by the U.S. Department of Health and Human 
+Services'';
     (ii) The information an ONC-ACB is required to report to the 
 National Coordinator under paragraph (f) of this section for the 
-specific Complete EHR or EHR Module at issue;
+specific Complete EHR or EHR Module at issue; and
+    (iii) Any additional types of costs that an EP, EH, or CAH would pay 
+to implement the Complete EHR's or EHR Module's capabilities in order to 
+attempt to meet meaningful use objectives and measures. EHR technology 
+self-developers are excluded from this requirement.
     (2) A certification issued to a pre-coordinated, integrated bundle 
 of EHR Modules shall be treated the same as a certification issued to a 
 Complete EHR for the purposes of paragraph (k)(1) of this section, 
@@ -1824,6 +2749,9 @@ included in the bundle; and
 solely on the applicable certification criteria adopted by the Secretary 
 at subpart C of this part must be separate and distinct from any other 
 certification(s) based on other criteria or requirements.
+
+[76 FR 1325, Dec. 7, 2011, as amended at 76 FR 72642, Nov. 25, 2011; 77 
+FR 54291, Sept. 4, 2012]
 
 
 
@@ -1851,6 +2779,9 @@ such clarification or correction without issuing a deficiency notice. If
 the National Coordinator has not received the requested information 
 after five days, the National Coordinator may issue a deficiency notice 
 to the applicant.
+
+
+
     (2) If the National Coordinator determines that deficiencies in the 
 application exist, the National Coordinator will issue a deficiency 
 notice to the applicant and return the application. The deficiency 
@@ -1874,9 +2805,6 @@ received by the end of the extension period.
 revised application once it has been received and may request 
 clarification of statements and the correction of errors or omissions in 
 a revised application during this time period.
-
-
-
     (4) If the National Coordinator determines that a revised 
 application still contains deficiencies, the applicant will be issued a 
 denial notice indicating that the applicant cannot reapply for ONC-ACB 
@@ -1926,6 +2854,9 @@ National Coordinator determines that the applicant did not identify
 factual errors or that the correction of the factual errors would not 
 remove all identified deficiencies in the application, the National 
 Coordinator may reject the applicant's reconsideration request.
+
+
+
     (3) Final decision. A reconsideration decision issued by the 
 National Coordinator is final and not subject to further review.
 
@@ -1940,7 +2871,7 @@ been authorized to perform.
     (b) Representation. Each ONC-ACB must prominently and unambiguously 
 identify the scope of its authorization on its Web site and in all 
 marketing and communications statements (written and oral) pertaining to 
-its activities under the permanent certification program.
+its activities under the ONC HIT Certification Program.
     (c) Renewal. An ONC-ACB is required to renew its status every three 
 years. An ONC-ACB is required to submit a renewal request, containing 
 any updates to the information requested in Sec. 170.520, to the 
@@ -1949,16 +2880,15 @@ National Coordinator 60 days prior to the expiration of its status.
 date it was granted by the National Coordinator unless it is renewed in 
 accordance with paragraph (c) of this section.
 
+[76 FR 1325, Dec. 7, 2011, as amended at 77 FR 54291, Sept. 4, 2012]
+
 
 
 Sec. 170.545  Complete EHR certification.
 
     (a) When certifying Complete EHRs, an ONC-ACB must certify in 
-accordance with all applicable certification
-
-
-
-criteria adopted by the Secretary at subpart C of this part.
+accordance with all applicable certification criteria adopted by the 
+Secretary at subpart C of this part.
     (b) An ONC-ACB must provide the option for a Complete EHR to be 
 certified solely to the applicable certification criteria adopted by the 
 Secretary at subpart C of this part.
@@ -1978,8 +2908,10 @@ previously certified Complete EHR if it determines that the capabilities
 for which certification criteria have been adopted have not been 
 adversely affected.
     (e) An ONC-ACB that has been authorized to certify Complete EHRs is 
-also authorized to certify all EHR Modules under the permanent 
-certification program.
+also authorized to certify all EHR Modules under the ONC HIT 
+Certification Program.
+
+[76 FR 1325, Dec. 7, 2011, as amended at 77 FR 54291, Sept. 4, 2012]
 
 
 
@@ -1995,7 +2927,8 @@ Secretary at subpart C of this part.
 perform gap certification of previously certified EHR Module(s).
     (d) An ONC-ACB may provide an updated certification to a previously 
 certified EHR Module(s).
-    (e) Privacy and security certification. EHR Module(s) shall be 
+    (e) Privacy and security certification. For certification to the 
+2011 Edition EHR certification criteria, EHR Module(s) shall be 
 certified to all privacy and security certification criteria adopted by 
 the Secretary, unless the EHR Module(s) is presented for certification 
 in one of the following manners:
@@ -2003,14 +2936,27 @@ in one of the following manners:
 coordinated, integrated bundle of EHR Modules, which would otherwise 
 meet the definition of and constitute a Complete EHR, and one or more of 
 the constituent EHR Modules is demonstrably responsible for providing 
-all of the privacy and security capabilities for the entire bundle of 
-EHR Modules; or
+all of the privacy
+
+
+
+and security capabilities for the entire bundle of EHR Modules; or
     (2) An EHR Module is presented for certification, and the presenter 
 can demonstrate and provide documentation to the ONC-ACB that a privacy 
 and security certification criterion is inapplicable or that it would be 
 technically infeasible for the EHR Module to be certified in accordance 
 with such certification criterion.
-    (f) Inherited certified status. An ONC-ACB must accept requests for 
+    (f) When certifying an EHR Module to the 2014 Edition EHR 
+certification criteria, an ONC-ACB must certify the EHR Module in 
+accordance with the certification criteria at:
+    (1) Section 170.314(g)(1) if the EHR Module has capabilities 
+presented for certification that would support a meaningful use 
+objective with a percentage-based measure;
+    (2) Section 170.314(g)(3) if the EHR Module is presented for 
+certification to one or more listed certification criteria in Sec. 
+170.314(g)(3); and
+    (3) Section 170.314(g)(4).
+    (g) Inherited certified status. An ONC-ACB must accept requests for 
 a newer version of a previously certified EHR Module(s) to inherit the 
 certified status of the previously certified EHR Module(s) without 
 requiring the newer version to be recertified.
@@ -2025,6 +2971,8 @@ previously certified EHR Module(s) if it determines that the
 capabilities for which certification criteria have been adopted have not 
 been adversely affected.
 
+[76 FR 1325, Dec. 7, 2011, as amended at 77 FR 54291, Sept. 4, 2012]
+
 
 
 Sec. 170.553  Certification of health information technology other than 
@@ -2033,12 +2981,9 @@ Complete EHRs and EHR Modules.
 
     An ONC-ACB authorized to certify health information technology other 
 than Complete EHRs and/or EHR Modules must certify such health 
-information technology in accordance with the
-
-
-
-applicable certification criterion or certification criteria adopted by 
-the Secretary at subpart C of this part.
+information technology in accordance with the applicable certification 
+criterion or certification criteria adopted by the Secretary at subpart 
+C of this part.
 
 
 
@@ -2046,19 +2991,21 @@ Sec. 170.555  Certification to newer versions of certain standards.
 
     (a) ONC-ACBs may certify Complete EHRs and/or EHR Module(s) to a 
 newer version of certain identified minimum standards specified at 
-subpart B of this part if the Secretary has accepted a newer version of 
-an adopted minimum standard.
-    (b) Applicability of an accepted newer version of an adopted minimum 
-standard.
-    (1) ONC-ACBs are not required to certify Complete EHRs and/or EHR 
-Module(s) according to newer versions of an adopted minimum standard 
-accepted by the Secretary until the incorporation by reference provision 
-of the adopted version is updated in the Federal Register with a newer 
+subpart B of this part, unless the Secretary prohibits the use of a 
+newer version for certification.
+    (b) Applicability of a newer version of a minimum standard. (1) ONC-
+ACBs are not required to certify Complete EHRs and/or EHR Module(s) 
+according to newer versions of standards identified as minimum standards 
+in subpart B of this part, unless and until the incorporation by 
+reference of a standard is updated in the Federal Register with a newer 
 version.
-    (2) Certified EHR Technology may be upgraded to comply with newer 
-versions of an adopted minimum standard accepted by the Secretary 
-without adversely affecting the certification status of the Certified 
-EHR Technology.
+    (2) A certified Complete EHR or certified EHR Module may be upgraded 
+to comply with newer versions of standards identified as minimum 
+standards in subpart B of this part without adversely affecting its 
+certification status, unless the Secretary prohibits the use of a newer 
+version for certification.
+
+[77 FR 54291, Sept. 4, 2012]
 
 
 
@@ -2081,15 +3028,17 @@ Module(s) for which it does not have authorization; and
 
 
 
+
+
 Sec. 170.565  Revocation of ONC-ACB status.
 
     (a) Type-1 violations. The National Coordinator may revoke an ONC-
 ACB's status for committing a Type-1 violation. Type-1 violations 
-include violations of law or permanent certification program policies 
-that threaten or significantly undermine the integrity of the permanent 
-certification program. These violations include, but are not limited to: 
-False, fraudulent, or abusive activities that affect the permanent 
-certification program, a program administered by HHS or any program 
+include violations of law or ONC HIT Certification Program policies that 
+threaten or significantly undermine the integrity of the ONC HIT 
+Certification Program. These violations include, but are not limited to: 
+False, fraudulent, or abusive activities that affect the ONC HIT 
+Certification Program, a program administered by HHS or any program 
 administered by the Federal government.
     (b) Type-2 violations. The National Coordinator may revoke an ONC-
 ACB's status for failing to timely or adequately correct a Type-2 
@@ -2120,9 +3069,6 @@ to demonstrate that no violation occurred or to correct the area(s) of
 non-compliance identified under paragraph (b)(1) of this section within 
 30 days of receipt of the noncompliance notification, then the National 
 Coordinator may propose to revoke the ONC-ACB's status.
-
-
-
     (c) Proposed revocation.
     (1) The National Coordinator may propose to revoke an ONC-ACB's 
 status if the National Coordinator has reliable evidence that the ONC-
@@ -2138,7 +3084,7 @@ noncompliance notification within the specified timeframe under
 paragraph (b)(2) of this section.
     (d) Suspension of an ONC-ACB's operations.
     (1) The National Coordinator may suspend the operations of an ONC-
-ACB under the permanent certification program based on reliable evidence 
+ACB under the ONC HIT Certification Program based on reliable evidence 
 indicating that:
     (i) The ONC-ACB committed a Type-1 or Type-2 violation; and
     (ii) The continued certification of Complete EHRs, EHR Module(s), 
@@ -2154,9 +3100,12 @@ Coordinator explaining why its operations should not be suspended.
 of an ONC-ACB's written response to a notice of proposed suspension to 
 review the response and make a determination.
     (5) The National Coordinator may make one of the following 
-determinations in response to the ONC-ACB's written response or if the 
-ONC-ACB fails to submit a written response within the timeframe 
-specified in paragraph (d)(3) of this section:
+determinations in response to the ONC-ACB's
+
+
+
+written response or if the ONC-ACB fails to submit a written response 
+within the timeframe specified in paragraph (d)(3) of this section:
     (i) Rescind the proposed suspension; or
     (ii) Suspend the ONC-ACB's operations until it has adequately 
 corrected a Type-2 violation; or
@@ -2191,21 +3140,20 @@ reconsider the revocation.
     (1) The revocation of an ONC-ACB is effective as soon as the ONC-ACB 
 receives the revocation notice.
     (2) A certification body that has had its ONC-ACB status revoked is 
-prohibited from accepting new requests for
-
-
-
-certification and must cease its current certification operations under 
-the permanent certification program.
+prohibited from accepting new requests for certification and must cease 
+its current certification operations under the ONC HIT Certification 
+Program.
     (3) A certification body that has had its ONC-ACB has its status 
 revoked for a Type-1 violation, is not permitted to reapply for ONC-ACB 
-status under the permanent certification program for a period of 1 year.
+status under the ONC HIT Certification Program for a period of 1 year.
     (4) The failure of a certification body that has had its ONC-ACB 
 status revoked to promptly refund any and all fees for certifications of 
 Complete EHRs and EHR Module(s) not completed will be considered a 
 violation of the Principles of Proper Conduct for ONC-ACBs and will be 
 taken into account by the National Coordinator if the certification body 
-reapplies for ONC-ACB status under the permanent certification program.
+reapplies for ONC-ACB status under the ONC HIT Certification Program.
+
+[76 FR 1325, Dec. 7, 2011, as amended at 77 FR 54291, Sept. 4, 2012]
 
 
 
@@ -2228,10 +3176,101 @@ certified by the former ONC-ACB.
     (c) If the National Coordinator determines that Complete EHRs and/or 
 EHR Module(s) were improperly certified, the certification status of 
 affected Complete EHRs and/or EHR Module(s) would only remain intact for 
-120 days after the National Coordinator publishes the notice. The 
-certification status of affected Complete EHRs and/or EHR Module(s) can 
-only be maintained thereafter by being re-certified by an ONC-ACB in 
-good standing.
+120 days
+
+
+
+after the National Coordinator publishes the notice. The certification 
+status of affected Complete EHRs and/or EHR Module(s) can only be 
+maintained thereafter by being re-certified by an ONC-ACB in good 
+standing.
+
+
+
+Sec. 170.575  Removal of the ONC-AA.
+
+    (a) Conduct violations. The National Coordinator may remove the ONC-
+AA for committing a conduct violation. Conduct violations include 
+violations of law or ONC HIT Certification Program policies that 
+threaten or significantly undermine the integrity of the ONC HIT 
+Certification Program. These violations include, but are not limited to: 
+false, fraudulent, or abusive activities that affect the ONC HIT 
+Certification Program, a program administered by HHS, or any program 
+administered by the Federal government.
+    (b) Performance violations. The National Coordinator may remove the 
+ONC-AA for failing to timely or adequately correct a performance 
+violation. Performance violations constitute a failure to adequately 
+perform the ONC-AA's responsibilities as specified in Sec. 170.503(e).
+    (1) Noncompliance notification. If the National Coordinator obtains 
+reliable evidence that the ONC-AA may no longer be adequately performing 
+its responsibilities specified in Sec. 170.503(e), the National 
+Coordinator will issue a noncompliance notification with reasons for the 
+notification to the ONC-AA requesting that the ONC-AA respond to the 
+alleged violation and correct the violation, if applicable.
+    (2) Opportunity to become compliant. The ONC-AA is permitted up to 
+30 days from receipt of a noncompliance notification to submit a written 
+response and accompanying documentation that demonstrates that no 
+violation occurred or that the alleged violation has been corrected.
+    (i) If the ONC-AA submits a response, the National Coordinator is 
+permitted up to 60 days from the time the response is received to 
+evaluate the response and reach a decision. The National Coordinator 
+may, if necessary, request additional information from the ONC-AA during 
+this time period.
+    (ii) If the National Coordinator determines that no violation 
+occurred or that the violation has been sufficiently corrected, the 
+National Coordinator will issue a memo to the ONC-AA confirming this 
+determination. Otherwise, the National Coordinator may propose to remove 
+the ONC-AA in accordance with paragraph (c) of this section.
+    (c) Proposed removal.
+    (1) The National Coordinator may propose to remove the ONC-AA if the 
+National Coordinator has reliable evidence that the ONC-AA has committed 
+a conduct violation; or
+    (2) The National Coordinator may propose to remove the ONC-AA if, 
+after the ONC-AA has been notified of an alleged performance violation, 
+the ONC-AA fails to:
+    (i) Rebut the alleged violation with sufficient evidence showing 
+that the violation did not occur or that the violation has been 
+corrected; or
+    (ii) Submit to the National Coordinator a written response to the 
+noncompliance notification within the specified timeframe under 
+paragraph (b)(2) of this section.
+    (d) Opportunity to respond to a proposed removal notice.
+    (1) The ONC-AA may respond to a proposed removal notice, but must do 
+so within 20 days of receiving the proposed removal notice and include 
+appropriate documentation explaining in writing why it should not be 
+removed as the ONC-AA.
+    (2) Upon receipt of the ONC-AA's response to a proposed removal 
+notice, the National Coordinator is permitted up to 60 days to review 
+the information submitted by the ONC-AA and reach a decision.
+    (e) Retention of ONC-AA status. If the National Coordinator 
+determines that the ONC-AA should not be removed, the National 
+Coordinator will notify the ONC-AA in writing of this determination.
+    (f) Removal.
+    (1) The National Coordinator may remove the ONC-AA if:
+    (i) A determination is made that removal is appropriate after 
+considering the information provided by the ONC-AA in response to the 
+proposed removal notice; or
+    (ii) The ONC-AA does not respond to a proposed removal notice within 
+the
+
+
+
+specified timeframe in paragraph (d)(1) of this section.
+    (2) A decision to remove the ONC-AA is final and not subject to 
+further review unless the National Coordinator chooses to reconsider the 
+removal.
+    (g) Extent and duration of removal.
+    (1) The removal of the ONC-AA is effective upon the date specified 
+in the removal notice provided to the ONC-AA.
+    (2) An accreditation organization that is removed as the ONC-AA must 
+cease all activities under the ONC HIT Certification Program, including 
+accepting new requests for accreditation under the ONC HIT Certification 
+Program.
+    (3) An accreditation organization that is removed as the ONC-AA is 
+prohibited from being considered for ONC-AA status for a period of 1 
+year from the effective date of its removal as the ONC-AA.
+
+[76 FR 72643, Nov. 25, 2011, as amended at 77 FR 54291, Sept. 4, 2012]
 
 
 
@@ -2261,5 +3300,4 @@ for Accreditation Bodies Accrediting Conformity Assessment Bodies
     (2) ISO/IEC GUIDE 65:1996--General Requirements for Bodies Operating 
 Product Certification Systems (First Edition), 1996, IBR approved for 
 Sec. 170.503.
-    (3) [Reserved]</bullet</bullet</bullet</bullet</bullet</bullet</bullet</bullet</bullet</bullet</bullet</bullet</bullet</bullet</bullet</bullet</bullet
-
+    (3) [Reserved]
